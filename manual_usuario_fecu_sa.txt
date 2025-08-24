@@ -1,0 +1,1277 @@
+Manual de Usuario
+Software FECU S.A.
+
+
+
+
+Manual de usuario software FECUSA.doc   -3 -
+                                                   Tabla de Contenidos
+3. INGRESO DE DATOS                     .................................................................................................................... 10
+   3.1. CARÁTULA ........................................................................................................................... 11
+   3.2.Configuración de Sistema para múltiples usuarios ................................................................ 13
+   3.3. ESTADOS FINANCIEROS.................................................................................................. 15
+   3.4. NOTAS EXPLICATIVAS A LOS ESTADOS FINANCIEROS ..................................................... 23
+      3.4.1. Notas Definidas por SVS .........................................................................................................................................24
+   3.5 ANÁLISIS RAZONADO .......................................................................................................... 33
+   3.6 HECHOS RELEVANTES ......................................................................................................... 34
+   3.7. INFORMES DE REVISIÓN DE INFORMACIÓN FINANCIERA INTERINA DE LOS AUDITORES
+    .................................................................................................................................................... 35
+   3.8. INFORMES DE AUDITORES EXTERNOS ............................................................................... 36
+   3.9. FIRMANTES DECLARACIÓN ................................................................................................ 37
+   4.1. VALIDACIONES .................................................................................................................... 38
+   4.2. VALIDACIÓN DE NOTAS EXPLICATIVAS ............................................................................. 40
+
+5. MODULO DE IMPRESIÓN                          ............................................................................................................. 42
+   5.1. REQUISITOS PARA LA IMPRESIÓN ...................................................................................... 42
+   5.2. IMPRESIÓN ........................................................................................................................... 42
+
+6.0. GENERACIÓN DE ARCHIVOS..................................................................................................... 45
+
+7.0. RESPA LDO DE DATOS ............................................................................................................... 47
+
+   7.1. GENERA RESPALDOS ........................................................................................................... 47
+   7.2. RECUPERA DATOS DESDE RESPALDOS ............................................................................... 48
+
+8.0. PREPARACIÓN DE ARCHIVOS PARA SER ENVIADOS A LA SVS ................................................. 49
+
+9. Anexo 1: NUEVAS FUNCIONALIDADES Y MODIFICACIONES FECUSA VERSIÓN 2.5 ....................... 50
+     Nuevas Funcionalidades .....................................................................................................................................................51
+
+
+
+
+Manual de usuario software FECUSA.doc                                         -4 -
+1. OBJETIVOS DE LA APLICACIÓN
+
+Permitir el ingreso, validación e impresión de la información correspondiente a Estados Financieros y Notas Expli-
+cativas, permitir la generación de los archivos con la información que deben entregar las Sociedades Anónimas, por
+medio de la Ficha Unica Codificada Uniforme (FECU), a la Superintendencia de Valores y Seguros.
+
+Módulo de Ingreso
+Este módulo permite el ingreso vía digitación de los Estados Financieros y Notas explicativas de la FECU, ingreso
+del Resumen de Hechos Relevantes y Análisis Razonado, e Informes de Auditores Externos. El ingreso de datos
+incluye validaciones interactivas, que informan al usuario por medio de mensajes presentados por pantalla, de los
+errores que se producen durante las operaciones de ingreso de datos.
+
+Módulo de Validación
+Este módulo permite realizar la validación de la información ingresada. Esto incluye validación de cuadraturas de
+los estados financieros y de los cuadros asociados a las notas explicativas, validación de existencia de notas explica-
+tivas cuando sea obligatorio para una sociedad anónima, y validación lógica de cruce entre los estados financieros y
+las nota explicativas. Como resultado del proceso de validación se genera un informe con todos los errores que se
+detecten durante el proceso, dicho informe se puede utilizar para efectuar las correcciones y ajustes que sean necesa-
+rios.
+
+Módulo de Impresión
+Este módulo permite la impresión de los componentes de la FECU. El usuario puede imprimir en forma selectiva
+cada componente de la FECU, o bien la FECU completa, la acción está basada en la selección que se haga. Es posi-
+ble enviar la salida de este módulo a pantalla o impresora.
+
+
+Módulo de Generación de Archivos
+Este módulo permite la generación de archivos con la información de la FECU que debe enviarse a la Superinten-
+dencia de Valores y Seguros. Para ejecutar la generación de archivos en forma exitosa es necesario que el proceso de
+validación haya terminado sin errores.
+
+
+
+
+Manual de usuario software FECUSA.doc              -5 -
+2. INGRESO A LA APLICACIÓN
+
+
+Desde la barra de tareas de Windows seleccione el comando Inicio, luego desde el grupo programas seleccione el
+ítem FECU S.A. una vez hechas las selecciones se activa la aplicación.
+
+A continuación se presenta la pantalla de activación de la aplicación:
+
+
+
+
+Importante
+
+a) Esta aplicación ha sido desarrollada para trabajar bajo ambiente Windows, por lo cual los usuarios siste-
+ma deben estar familiarizados con este ambiente de trabajo y conocer aspectos básicos como:
+
+•   Uso del Mouse
+•   Manejo de ventanas (abrir, cerrar, minimizar, maximizar, moverlas con el mouse, etc.)
+•   Uso de botones
+•   Desplazamiento de datos dentro de una ventana, utilizando barras de avance horizontal y vertical
+
+b) Configuración Regional de Windows
+
+La Configuración Regional indica al sistema, cuáles son los parámetros que se deben utilizar para darle for-
+mato a los números, fecha y hora del computador.
+
+La Aplicación FECU S.A. requiere que la configuración regional de Windows se encuentre seteado con los
+siguientes parámetros:
+
+
+
+
+Manual de usuario software FECUSA.doc               -6 -
+Y, aunque la aplicación FECU S.A. por si sola lo setea, esta configuración debe permanecer así mientras ésta
+se ejecuta.
+
+
+
+
+Manual de usuario software FECUSA.doc          -7 -
+Iniciar Sistema
+Al iniciar el sistema se presenta la ventana de identificación de usuario en la cual se debe ingresar la contraseña de
+acceso al sistema. El formato de la pantalla de ingreso al sistema se presenta continuación:
+
+
+
+
+Contraseña:            Ingrese en esta área la contraseña de acceso al sistema.
+Aceptar:               Haga un clic con el botón izquierdo del mouse sobre este comando para confirmar la opera-
+                       ción.
+Cancelar:              Haga un clic con el botón izquierdo del mouse sobre este comando para cancelar la opera-
+                       ción.
+
+
+
+Cambiar Contraseña:       Utilice esta opción toda vez que desee cambiar la contraseña de ingreso al sistema. Haga
+                          un clic con el botón izquierdo del mouse dentro del caja de selección que aparece a la
+                          izquierda de la palabra “Cambiar Contraseña”, luego haga clic en comando Aceptar para
+                          confirmar la operación, el sistema FECUSA presentará la siguiente pantalla:
+
+
+
+
+Nueva Contraseña:                  Ingrese en esta área la nueva contraseña que desea empezar a utilizar
+Verificación de Contraseña:        Repita en esta área la nueva contraseña que desea empezar a utilizar
+Aceptar:                           Haga un clic con el botón izquierdo del mouse sobre este comando para confirmar
+                                   la operación.
+
+
+
+
+Manual de usuario software FECUSA.doc              -8 -
+Ingreso Identificación de la Empresa
+La primera vez que utilice el sistema será necesario ingresar los datos de identificación de la empresa, para esta
+operación el sistema presenta la pantalla de identificación en la cual el usuario debe completar la siguiente informa-
+ción:
+
+RUT:              Ingrese en ésta área el RUT de la empresa que informa
+Razón Social:     Ingrese en esta área la razón social de la empresa que informa
+Aceptar:          Haga un clic con el botón izquierdo del mouse sobre este comando para confirmar la operación.
+Cancelar:         Haga un clic con el botón izquierdo del mouse sobre este comando para cancelar la operación.
+
+La pantalla de ingreso de identificación de la empresa se ilustra en la siguiente figura:
+
+
+
+
+Manual de usuario software FECUSA.doc               -9 -
+Menú Principal del Sistema
+
+
+
+
+El menú del sistema FECU S.A. presenta 7 grupos de opciones que le ayudarán a completar las operaciones de ingre-
+so de datos, producción de los distintos archivos requeridos por la Superintendencia de Valores y Seguros, respaldo
+de los datos del sistema y otras funcionalidades que a continuación se explican en detalle.
+
+3. INGRESO DE DATOS
+
+
+
+
+Seleccione ésta opción del menú toda vez que desee ingresar o modificar cualquiera de los documentos que aparecen
+en la lista de opciones presentadas en esta pantalla. Cada una de las opciones del menú de ingreso de datos se descri-
+be por separado.
+
+
+
+
+Manual de usuario software FECUSA.doc             - 10 -
+3.1. CARÁTULA
+
+Esta opción del menú permite ingresar información complementaria a la identificación de la empresa, también desde
+esta opción se pueden modificar datos ingresados anteriormente.
+
+Al seleccionar la opción carátula el sistema presenta la siguiente pantalla de ingreso, modificación y selección de
+datos:
+
+
+
+
+Desde la pantalla de ingresos y modificación de datos de la carátula se pueden ingresar o modificar los siguientes
+elementos:
+
+Razón Social           Ingrese la nueva razón social que desea utilizar en el sistema
+Fecha Inicio Período   Seleccione desde esta área la fecha que representa inicio del período que se informa
+Fecha Término Período  Seleccione desde esta área la fecha que representa término del período que se informa
+Moneda                 Indique el tipo de moneda que se utilizará para ingresar la información de la FECU, las
+                       monedas permisibles son Peso o Dólar.
+Método de Estado de Flujo de Efectivo Corresponde al método utilizado en el período que se informa, los valo-
+                                         res posibles para este ítem son Directo o Indirecto.
+
+Cada vez que se modifica alguna fecha de la carátula, el sistema presenta un mensaje indicando que eliminará los
+datos existentes en el sistema, y queda a espera de confirmación del usuario quien deberá confirmar si desea o no
+eliminar los datos existentes en el sistema.
+
+
+
+
+Manual de usuario software FECUSA.doc            - 11 -
+A continuación se presenta el mensaje de confirmación de eliminación de datos:
+
+
+
+
+SI      Confirma la eliminación de datos desde el sistema
+NO      Ignora la eliminación de datos
+
+
+
+
+Manual de usuario software FECUSA.doc           - 12 -
+3.2.Configuración de Sistema para múltiples usuarios
+El sistema FECU S.A. puede ser configurado para ser utilizado por varios usuarios en un entorno de red, para lograr
+esta funcionalidad se deben completar las siguientes acciones:
+
+a)   Instalar la aplicación en cada una de las computadoras desde donde se desea ejecutar el sistema
+
+b) Definir cual de las computadoras actuará como servidor de datos, compartir la carpeta donde se tendrá la base
+   de datos, y dar los permisos necesarios (lectura y escritura) a los usuarios que utilizarán la aplicación.
+
+c)   Configurar cada una de las estaciones donde está instalado FECU S.A. para que acceda a la base de datos de la
+     comp utadora que actúa como servidor de datos, definiendo las unidades de disco de red.
+
+La instalación de FECU S.A. se debe realizar en forma independiente en cada computadora de la red, una vez que se
+ha terminado la instalación y se ha definido que computadora actuará como servidor de datos ejecute las siguientes
+operaciones:
+
+1.   Inicie la aplicación FECUSA
+2.   Desde el menú Ingreso de Datos seleccione opción Cambio Directorio Base de Datos, luego desde la pantalla
+     activa seleccione las siguientes opciones:
+
+
+
+
+                                                                 Haga un clic en la flecha de selección señalada en la
+                                                                 figura para acceder a las unidades de red o discos
+                                                                 disponibles en su sistema. Luego seleccione la uni-
+                                                                 dad de red o disco local que contiene la base de
+                                                                 datos.
+
+
+
+
+Manual de usuario software FECUSA.doc             - 13 -
+                                                                 Desde la lista de directorios activa, seleccione la
+                                                                 carpeta que contiene las bases de datos, dicha carpe-
+                                                                 ta corresponde a aquella definida como servidor de
+                                                                 datos.
+
+                                                                 Haga un clic en el comando Aceptar de la ventana
+                                                                 activa para confirmar su elección.
+
+
+
+
+Validación de Base de Datos
+Una vez que se ha confirmado la información de ubicación de la base de datos de red, el sistema valida la presencia
+de la base de datos en la unidad definida.
+
+Error al validar base de datos
+El siguiente mensaje es presentado al usuario si el sistema no encuentra la base de dato en la ubicación seleccionada:
+
+
+
+
+Ante este mensaje, el usuario debe seleccionar el comando Aceptar y repetir la operación de selección de unidad de
+red y directorio de base de datos.
+
+Validación Exitosa
+Si la validación de la base de datos es exitosa, el sistema presenta un mensaje de advertencia indicando que la aplica-
+ción FECUSA se debe reiniciar para que el cambio se haga efectivo.
+
+
+
+
+Manual de usuario software FECUSA.doc              - 14 -
+3.3. ESTADOS FINANCIEROS
+La opción Ingreso de Estados Financieros permite acceder a una pantalla única para el ingreso de Activos, Pasivos,
+Estados de Resultados, Estados de Flujo Efectivo Directo, Conciliación Flujo de Resultados. Considerando que se
+trata de una pantalla única de ingresos, el modelo de pantalla que se presenta a continuación es válido para cada uno
+de los tipos de ingresos que la pantalla administra
+
+Ingreso de Activos
+
+
+
+
+Actividades asociadas al ingreso de datos de los Estados Financieros
+Antes de empezar el ingreso de datos debe efectuar las siguientes selecciones:
+1.   Seleccionar el estado financiero sobre el que se va a trabajar (Activos, Pasivo, Estado Resultado etc.)
+2.   Seleccionar el Tipo de Balance, Individual o Consolidado. Esta selección debe hacerse antes de iniciar el in-
+     greso de datos, en caso contrario perderá los datos ingresados.
+
+
+
+
+Manual de usuario software FECUSA.doc              - 15 -
+                                                 Seleccione Estado Financiero
+                                                 Seleccione desde la lista activa el tipo de estado financie-
+                                                 ro sobre el cual desea hacer ingresos.
+
+
+
+
+                                                 Tipo Balance
+                                                 Seleccione la opción que represente el tipo de balance
+                                                 deseado.
+                                                 Puede mantener información de los estados financieros
+                                                 para los dos tipos de balance de un mismo período.
+
+
+
+
+Manual de usuario software FECUSA.doc   - 16 -
+Ingreso de Datos
+El ingreso de datos se hará en la columnas Nro. Nota, Actual, Anterior , y bastará con posicionar el cursor en la
+celda deseada y luego digitar los datos.
+
+Ingresos Números Negativos
+Al ingresar un número negativo debe anteponer el signo menos, luego ingresar el número, una vez completada la
+operación de ingreso el número negativo es presentado entre paréntesis.
+
+
+                                                            Nro. Nota
+                                                            Ingrese en esta columna el número de nota que acom-
+                                                            paña a los datos de la cuenta que se ingresa.
+                                                            Los datos de esta columna son opcionales.
+                                                            Actual
+                                                            Ingrese en esta columna los valores correspondiente al
+                                                            período que se informa
+                                                            Anterior
+                                                            Ingrese en esta columna los valores correspondiente al
+                                                            período anterior al cual se informa
+
+
+
+
+Copiar datos
+1. Seleccione los datos que desea copiar
+2. Mantenga presionada la tecla Ctrl y pulse por una vez la letra C
+3. Posicione el cursor en la celda de destino
+4. Mantenga presionada la tecla Ctrl y pulse por una vez la letra V para completar la operación
+
+Desplazamiento en celdas de ingreso
+Para desplazar el cursor de una celda a otra en la planilla puede utilizar las teclas de movimiento de cursor que apa-
+recen en el teclado simbolizadas por una flecha, o presionar la tecla ENTER.
+
+                                                Desplazamiento ENTER
+                                                Seleccione la opción que represente la dirección en que debe des-
+                                                plazarse el cursor por la planilla cuando Ud. presione la tecla EN-
+                                                TER.
+                                                Flechas movimiento cursor
+                                                Pulse la tecla que representa la dirección en la cual desea desplazar
+                                                el cursor.
+
+
+
+
+Desplazamiento en la planilla de ingreso
+Para desplazar el cursor de una en la planilla y acceder a las filas o columnas no visibles en pantalla utilice la barra
+de desplazamiento que se ubica al extremo derecho o inferior de la planilla de ingreso de datos.
+
+                               Barra de Avance
+                               Haga un click en la flecha de la barra de avance para desplazarse vertical u hori-
+                               zontalmente en la planilla de ingreso de datos.
+
+
+
+
+Borrar Datos
+Utilice la tecla suprimir para borrar datos que se encuentren la derecha de la posición del cursor
+Utilice la tecla backspace para borrar datos que se encuentren a la izquierda de la posición del cursor.
+Manual de usuario software FECUSA.doc              - 17 -
+                    Exportar
+                    Este comando permite exportar a una Planilla Excel los datos que hay en la pantalla activa
+                    dejando dicha planilla en el directorio “Archivos_Fecu”, el nombre de la planilla exportada
+                    es creado automáticamente con el siguiente formato: Nombre del Cuadro, fecha en formato
+                    año mes día RUT de la empresa.
+                    El siguiente ejemplo ilustra el nombre de un cuadro exportado a Excel: “Acti-
+                    vos_2001061.90635000.xls”. Al término de la operación de exportación a Excel el programa
+                    presenta un mensaje indicando que la operación completó en forma correcta.
+
+                    Importar
+                    Este comando permite importar datos desde una Planilla Excel, la planilla que se desea
+                    Importar debe tener formato idéntico al formulario activo donde se recibirán los datos.
+                    Grabar
+                    Seleccione este comando para grabar los datos que ha ingresado.
+                    Salir
+                    La selección de este comando en la pantalla de ingreso de Estados Financieros retorna el
+                    control al menú principal del sistema.
+
+
+Importar Datos
+Una vez seleccionado el comando Importar debe completar las siguientes operaciones:
+
+    1.   Seleccionar el área de la planilla Excel que contiene los datos
+    2.   Asignar nombre al área seleccionada
+    3.   Grabar planilla Excel en directorio “Archivos_Fecu”
+    4.   Seleccionar comando Importar
+    5.   En el área Importación de la ventana activa seleccionar el nombre del archivo Excel que se desea importar
+    6.   Seleccionar nombre del área que desea importar
+    7.   Confirmar operación seleccionando comando Importar de la ventana activa
+
+Ventana de selección de planilla Excel                     Ventana de selección de archivo Excel
+
+
+
+
+                  Seleccione este comando para acceder a la ventana de selección de planillas Excel existentes
+
+                  Inicia la operación de importación de los datos seleccionados
+
+                  Seleccione este comando para salir de la opción de importación de datos.
+
+
+
+
+Manual de usuario software FECUSA.doc             - 18 -
+Grabación de datos y Validaciones de cuadratura
+Al momento de grabar los datos ingresados, la aplicación realiza validaciones de cuadratura de cuentas, procediendo
+a grabar los datos sólo si se han ingresado correctamente los valores de cada una de las cuentas, en éste caso el sis-
+tema grabará los datos ingresados, y presentará un mensaje de información que indica el éxito de la operación de
+grabación.
+
+
+
+
+Errores de cuadratura
+Si durante el proceso de validación de cuadratura de datos, efectuado automáticamente antes de la grabación de los
+mismos, el sistema detecta errores, se informará al usuario que no es posible completar la operación de grabación
+hasta que los datos sean corregidos.
+
+El formato de la pantalla de errores de cuadratura presentado por sistema se ilustra a continuación:
+
+
+
+
+Grabar           Este comando permite grabar el mensaje de error presentado por el sis tema
+Imprimir         Este comando permite imprimir el mensaje de error presentado por el sistema.
+                 Antes de imprimir el informe el usuario puede seleccionar la impresora a la cual desea dirigir el
+                 informe
+
+
+
+
+Manual de usuario software FECUSA.doc              - 19 -
+Ingreso de Pasivos
+El ingreso de pasivos presenta la pantalla única de ingreso de estados financieros, sólo cambia el conjunto de cuentas
+que forman la planilla de ingresos, las funciones explicadas para el ingreso de Activos y desplazamiento en la plani-
+lla son también aplicables a los Pasivos.
+
+
+
+
+Ingreso Estados de Resultados
+El ingreso de Estados de Resultados presenta la pantalla única de ingreso de estados financieros, sólo cambia el con-
+junto de cuentas que forman la planilla de ingresos, las funciones explicadas para el ingreso de Activos y desplaza-
+miento en la planilla son también aplicables a los Estados de Resultados.
+
+
+
+
+Manual de usuario software FECUSA.doc             - 20 -
+Ingreso Estados de Flujo Efectivo Indirecto
+El ingreso de Estados de Flujo Efectivo Indirecto presenta la pantalla única de ingreso de estados financieros, sólo
+cambia el conjunto de cuentas que forman la planilla de ingresos, las funciones explicadas para el ingreso de Activos
+y desplazamiento en la planilla son también aplicables a los Estados de Flujo Efectivo Indirecto.
+
+
+
+
+Manual de usuario software FECUSA.doc             - 21 -
+Ingreso Conciliación Flujo Resultados
+El ingreso de Conciliación Flujo de Resultados presenta la pantalla única de ingreso de estados financieros, sólo
+cambia el conjunto de cuentas que forman la planilla de ingresos, las funciones explicadas para el ingreso de Activos
+y desplazamiento en la planilla son también aplicables a Conciliación Flujo Resultados.
+
+
+
+
+Manual de usuario software FECUSA.doc             - 22 -
+3.4. NOTAS EXPLICATIVAS A LOS ESTADOS FINANCIEROS
+Las notas explicativas a los Estados Financieros se componen de las Notas definidas por la Superintendencia de
+Valores y Seguros, y por notas adicionales, que enviará voluntariamente cada sociedad que lo estime conveniente.
+Se ingresa a la opción de notas explicativas, a través de la siguiente opción de menú:
+
+
+
+
+Manual de usuario software FECUSA.doc           - 23 -
+3.4.1. Notas Definidas por SVS
+Al ingresar a esta opción se presenta una pantalla en la cual aparece la lista de Notas Explicativas definidas por la
+SVS. Cada una de estas notas, tiene un componente de Texto, y opcionalmente tiene la posibilidad de ingresar un
+nombre de Archivo tipo planilla Excel, donde se adjunte información relacionada a la nota. Algunas de estas notas
+explicativas además, tienen cuadros asociados, los cuales deben completarse obligadamente si la sociedad incluye
+información en la nota.
+
+El formato de la pantalla de selección de ingreso de notas se presenta a continuación:
+
+
+
+
+Ingreso de Texto en una Nota Explicativa
+El texto que se ingrese como parte de una nota explicativa se graba sin caracteres especiales, consecuentemente, el
+texto que se ingresa debe ser lo más simple posible.
+
+Planilla Excel adjunta a una Nota Explicativa
+Es posible entregar la información de una nota explicativa en una planilla Excel. En este caso se debe confeccionar
+la nota usando la planilla de cálculos Excel, luego grabar dicha planilla en el directorio “C:\Archivos de Progra-
+mas\Fecusa\ Archivos_fecu” de su computador. El nombre que se asigna a la planilla al momento de su grabación
+debe estar definido bajo las siguientes reglas: NombredeArchivoAAAAMMBrut.XLS, el formato del nombre se
+describe como sigue:
+
+        NombredeArchivo: Debe ser asignado por el usuario con relación al contenido de la planilla.
+        AAAAMM: Corresponde al año y mes de término del período informado.
+        RUT: Corresponde al RUT de la sociedad que informa, sin incluir dígito verificador.
+        B: Corresponde al tipo de Balance, ‘I’ para Individual, y ‘C’ para consolidado.
+
+Importante
+El uso de planillas Excel, debe hacerse en forma RESTRINGIDA a aquellos casos en que sea estrictamente necesa-
+rio, porque se enviará la información en un cuadro estructurado. En cualquier otro caso, debe preferirse el ingreso de
+texto.
+Manual de usuario software FECUSA.doc             - 24 -
+Cuando adjunte información en planillas, se debe indicar en ésta, la primera fila del archivo deberá contener un
+título señalando claramente cual es la información que se incluye.
+
+Es conveniente, además incluir una referencia a la información contenida en este cuadro, utilizando la ventana de
+texto asociada a la nota. De esta forma al imprimirse, se sabrá claramente en que lugar de la FECU impresa, deberá
+incluirse el cuadro realizado con Excel.
+
+Errores en Nombre de Planilla Excel
+Si el nombre de archivo indicado no se encuentra en el directorio respectivo el sistema presenta el siguiente error:
+
+
+
+
+Si el nombre asignado a la planilla Excel no corresponde al formato requerido el sistema presenta el siguiente men-
+saje de error:
+
+
+
+
+Manual de usuario software FECUSA.doc              - 25 -
+Cuadros asociados a una Nota Explicativa
+Una Nota Explicativa puede contener uno o más cuadros estructurados por la Superintendencia. Si la sociedad debe
+incluir en su FECU una nota explicativa que contiene cuadros, todos ellos deben completarse con la información
+necesaria, de lo contrario la nota explicativa quedará incompleta. Al ingresar los datos de un cuadro, se realizan
+ciertas validaciones, que al no cumplirse generan mensajes de error los cuales son presentados al usuario por la
+pantalla del sistema. El usuario debe corregir los errores, de lo contrario no será posible la grabación de los datos.
+
+La siguiente pantalla ilustra el ingreso de datos para la Nota 27 Cambios en el Patrimonio, ésta Nota tiene 6 cuadros
+asociados, cada uno de ellos está representado por un comando que se identifica por la leyenda “Cuadro 21” a “Cua-
+dro 26”.
+
+
+
+
+El siguiente cuadro está asociado a la Nota 27, y se activará cuando el usuario seleccione el comando Cuadro 21:
+
+
+
+
+Manual de usuario software FECUSA.doc             - 26 -
+Cuadros asociados
+En general los cuadros asociados permiten el ingreso de datos numéricos en un formato similar al de una planilla de
+cálculos, adicionalmente, algunos comandos presentan comandos que permiten agregar columnas, agregar filas,
+eliminar
+cuadro, importar datos desde una planilla Excel, exportar datos a una planilla Excel, además de los comandos que
+permiten grabar los datos y salir de la aplicación respectivamente.
+
+                     Permite insertar nuevas filas al cuadro activo, dependiendo del cuadro con el cual se está
+                     trabajando. La inserción se hace en posiciones fijas de la planilla, o en la posición seleccio-
+                     nada por el usuario.
+                     Permite la eliminación de filas. Este comando sólo actúa sobre filas insertadas por el usuario.
+                     Para completar la operación se ubica el cursor en la fila deseada y luego se selecciona el
+                     comando Eliminar.
+                     Permite exportar a una Planilla Excel los datos que hay en la pantalla activa. Las planillas
+                     generadas. Queda grabada en el directorio “Archivos_Fecu”. El nombre de la planilla expor-
+                     tada es creado automáticamente con el siguiente formato: Nombre del Cuadro, fecha en for-
+                     mato año mes día, RUT de la empresa. Ejemplo “Cuadro5_2001061.90635000.xls”.
+                     Permite importar datos desde una Planilla Excel, la planilla que se desea importar debe tener
+                     formato idéntico al formu lario activo donde se recibirán los datos. El archivo que se debe
+                     importar es un archivo de texto separado por tabuladores. Para hacer esto, desde la planilla
+                     Excel se debe seleccionar la opción “Guardar Como” del menú “Archivo”, y seleccionar el
+                     tipo de archivo como “Texto delimitado por tabulaciones”.
+                     Permite borrar todo el contenido de un cuadro previa confirmación del usuario, ya que, una vez que
+                     se han eliminado los datos no es posible su recuperación.
+                     Graba los datos del cuadro activo.
+
+
+
+
+Observaciones generales respecto del llenado de los Cuadros
+
+Manual de usuario software FECUSA.doc            - 27 -
+La aplicación realiza ciertas validaciones sobre la información ingresada en los cuadros, y al no cumplirse alguna de
+ellas, se presenta un mensaje de error, y la información del cuadro se grabará temporalmente, pudiendo el usuario
+retomar la operación de ingresos en cualquier momento.
+
+A continuación se mencionan las validaciones más importantes:
+
+•        Algunos cuadros contienen filas o columnas de totales o saldos. En estos casos, se debe ingresar el total, de
+modo que cuadre con la suma de las filas o columnas que lo componen según corresponda. La aplicación valida
+estas sumas, y presenta un mensaje de error cuando el valor total no corresponde a la suma de los componentes:
+
+
+
+
+•       Algunos cuadros como por ejemplo el cuadro 5: Deudores Corto y Largo Plazo, contienen reglas de valida-
+ción adicionales a las aquí mencionadas, que de no cumplirse también despliegan el mensaje de error ‘MONTO
+DESCUADRADO’.
+
+Importante
+Si se debe completar una nota explicativa definida por SVS que no contiene cuadros, se deberá ingresar nota de
+texto, ad juntar una planilla Excel con la información de la nota, o ambos.
+
+Si se debe completar una nota explicativa definida por SVS, que contiene cuadros, se deberá ingresar información
+en todos los cuadros asociados a la nota para que la nota se considere completa.
+
+Observación relacionada a la nota explicativa Inversiones en Empresas Relacionadas
+
+Las columnas VPP incluidas en el cuadro asociado a esta nota, sólo deben completarse con valores positivos o cero.
+
+3.3.1   Notas Definidas por SVS
+        Selección de Notas y Cuadros:
+        Al seleccionar ingreso de Notas definidas por SVS, es posible ingresar la nota de texto, adjuntar una plani-
+        lla Excel, ingresar datos a un cuadro asociado. Dependiendo de la nota seleccionada son las opciones de in-
+        greso que tiene el usuario.
+
+        En la siguiente lista se presenta la identificación de las notas y los cuadros asociados a cada una de ellas:
+Nota                                                               Cuadro Asociado
+Nota 01. Inscripción en el Registro de Valores
+Nota 02. Criterios Contables Aplicados                             Cuadro1 "Sociedades Incluidas en la Consolidación"
+Nota 03. Cambios Contables
+Nota 04. Valores Negociables                                       Cuadro2 "Composición del Saldo"
+                                                                   Cuadro3 "Acciones"
+Manual de usuario software FECUSA.doc             - 28 -
+                                                                Cuadro4   "Instrumentos de Renta Fija"
+Nota 05. Deudores de Corto y Largo Plazo                        Cuadro5   "Deudores corto y largo plazo"
+Nota 06. Saldos y Transacciones con entidades relacionadas      Cuadro6   "Documentos y Cuentas por Cobrar"
+                                                                Cuadro7   "Documentos y Cuentas por Pagar"
+                                                                Cuadro8   "Transacciones"
+Nota 07. Existencias
+Nota 08. Impuestos diferidos e impuestos a la renta             Cuadro9 "Impuestos Diferidos"
+                                                                Cuadro10 "Impuestos a la renta"
+Nota 09. Contratos de leasing corto y largo plazo y activos
+         para leasing (nota exigida sólo para las empresas de
+        leasing definidas en circular Nº 939, de 1990)
+Nota 10. Otros activos circulantes
+Nota 11. Información sobre operaciones de compromiso            Cuadro11 "Operaciones de compromiso de compra
+         de compra, compromisos de venta, venta con                       (CC) y de venta (CV)"
+         compromiso de recompra y compra con compromiso         Cuadro12 "Operaciones de venta con compromiso
+         de retroventa de títulos o valores mobiliarios                  de recompra (VRC) y de compra con
+                                                                         compromiso de reventa (CRV)"
+Nota 12. Activos Fijos
+Nota 13. Transacciones de venta con retroarrendamiento
+Nota 14. Inversiones en empresas relacionadas                   Cuadro13   "Detalle de las inversiones"
+Nota 15. Inversiones en otras sociedades                        Cuadro14   "Inversiones en otras sociedades"
+Nota 16. Menor y Mayor valor de inversiones                     Cuadro15   "Menor Valor"
+                                                                Cuadro16   "Mayor Valor"
+Nota 17. Intangibles
+Nota 18. Otros (Activos)
+Nota 19. Obligaciones con bancos e instituciones financieras    Cuadro17 "Obligaciones con bancos e instituciones
+         a corto plazo                                                    financieras a corto plazo."
+
+Nota                                                            Cuadro Asociado
+Nota 21. Obligaciones con bancos e instituciones financieras    Cuadro18 "Obligaciones con bancos e instituciones
+         largo plazo                                                      financieras largo plazo"
+Nota 22. Obligaciones con el público corto y largo plazo        Cuadro19 "Pagarés"
+         (pagarés y bonos)                                      Cuadro20 "Bonos"
+Nota 23. Provisiones y Castigos
+Nota 24. Indemnizaciones al personal por años de servicio
+Nota 25. Otros pasivos a largo plazo
+Nota 26. Interés minoritario
+Nota 27. Cambios en el patrimonio                               Cuadro21    "Cambios en el patrimonio"
+                                                                Cuadro22    "Número de Acciones"
+                                                                Cuadro23    "Capital (monto - M$)"
+                                                                Cuadro24    "Adquisición y posesión de acciones
+                                                                             propias."
+                                                                Cuadro25 "Enajenaciones o disminución de la
+                                                                cartera de acciones propias"
+                                                                 Cuadro26 "Déficit acumulado período de desarrollo
+                                                                              filial"
+Nota 28. Otros Ingresos y Egresos fuera de la explotación
+Nota 29. Corrección Monetaria                                   Cuadro27 "Corrección monetaria"
+Nota 30. Diferencias de Cambio                                  Cuadro28 "Diferencias de Cambio"
+Nota 31. Items extraordinarios
+Nota 32. Gastos de emisión y colocación de títulos
+         accionarios y de títulos de deuda
+Nota 33. Estado de Flujo de Efectivo
+Nota 34. Contratos de Derivados                                 Cuadro29 "Contratos de Derivados"
+
+Manual de usuario software FECUSA.doc             - 29 -
+Nota 35. Contingencias y Restricciones                    Cuadro30 "Garantías directas"
+                                                          Cuadro31 "Garantías indirectas"
+Nota 36. Cauciones obtenidas de terceros
+Nota 37. Moneda Nacional y Extranjera                     Cuadro32   "Activos"
+                                                          Cuadro33   "Pasivos Circulantes"
+                                                          Cuadro34   "Pasivos largo plazo período actual."
+                                                          Cuadro35   "Pasivos largo plazo período anterior"
+Nota 38. Sanciones
+Nota 39. Hechos Posteriores
+Nota 40. De las sociedades sujetas a normas especiales    Cuadro36 "De las sociedades sujetas a normas
+                                                                    especiales"
+                                                          Cuadro37 "De las sociedades sujetas a normas
+                                                                    especiales (2)"
+Nota 41. Medio Ambiente
+
+
+
+
+Manual de usuario software FECUSA.doc            - 30 -
+Ingreso de Notas Adicionales
+Las notas adicionales, permiten incluir complementaria a la FECU no informada en las notas definidas por SVS.
+Las notas adicionales no son obligatorias, y en ellas se puede incluir texto o se puede adjuntar información en una
+planilla Excel.
+
+Cada nota adicional se describe por un título o nombre y su contenido. La sociedad puede incluir tantas notas adicio-
+nales como estime conveniente.
+
+El ingreso de notas adicionales se activa seleccionando la opción Notas Adicionales que se encuentra en el menú
+Notas Explicativas de la opción de Ingreso de Datos.
+
+
+
+
+Una vez seleccionada la opción Notas Adicionales el sistema presenta la pantalla para el ingreso de notas cuyo for-
+mato se ilustra en la siguiente figura:
+
+
+
+
+Ingresar Nota Adicional
+                             Al seleccionar este comando usted podrá ingresar la identificación asociada
+                             con la nota que esta ingresando.
+
+Manual de usuario software FECUSA.doc             - 31 -
+                         Ingrese en ésta área el nombre de la nueva nota o seleccione una nota
+                         existente con el cual desea trabajar.
+                         Seleccione este comando para aceptar la identificación asignada a un nota
+
+
+                         Seleccione este comando para cambiar el nombre de la nota seleccionada
+
+                         Al seleccionar este comando el usuario puede eliminar definitivamente
+                         la nota activa.
+                         Ingresen en esta área el nombre de la planilla Excel que adjuntará a la nota.
+
+
+
+
+Manual de usuario software FECUSA.doc         - 32 -
+3.5 ANÁLISIS RAZONADO
+
+Seleccione desde el menú de ingresos la opción Análisis Razonado para acceder a la ventana de ingreso respectiva,
+el cuadro de menú y la ventana de ingresos de Análisis Razonado se ilustran en las siguientes figuras:
+
+
+
+
+Ingrese en esta pantalla el texto asociado a la información solicitada, adicionalmente se puede adjuntar una planilla
+Excel que contenga información complementaria. Para adjuntar planilla Excel ingrese el nombre de la planilla de-
+seada, ésta última debe estar grabada en la carpeta C:\Archivos de Programa\Fecusa\Archivos_fecu.
+
+
+
+
+Manual de usuario software FECUSA.doc             - 33 -
+3.6 HECHOS RELEVANTES
+
+Seleccione desde el menú de ingresos la opción Hechos Relevantes para acceder a la ventana de ingreso respectiva,
+el cuadro de menú y la ventana de ingresos de Hechos Relevantes se ilustran en las siguientes figuras:
+
+
+
+
+Ingrese en esta pantalla el texto asociado a la información solicitada.
+
+
+
+
+Manual de usuario software FECUSA.doc               - 34 -
+3.7. INFORMES DE REVISIÓN DE INFORMACIÓN FINANCIERA INTERINA DE LOS AUDITORES
+     EXTERNOS.
+
+Seleccione desde el menú de ingresos la opción Informe de Revisión de información financiera interina de los audi-
+tores externos para acceder a la ventana de ingreso respectiva, el cuadro de menú y la ventana de ingresos se ilustran
+en las siguientes figuras:
+
+
+
+
+Este informe corresponde al informe semestral. Aquí se ingresa el texto asociado al informe, RUT y razón social de
+la empresa auditora, RUT y nombre del socio de ésta que firma el informe.
+
+
+
+Manual de usuario software FECUSA.doc             - 35 -
+3.8. INFORMES DE AUDITORES EXTERNOS
+
+Seleccione desde el menú de ingresos la opción Informe de Auditores Externos para acceder a la ventana de ingreso
+respectiva, el cuadro de menú y la ventana de ingresos se ilustran en las siguientes figuras:
+
+
+
+
+Corresponde al informe anual. En este caso, se ingresa el texto asociado al informe, RUT y razón social de la em-
+presa auditora, RUT y nombre del socio de ésta que firma el informe.
+
+
+
+
+Manual de usuario software FECUSA.doc           - 36 -
+3.9. FIRMANTES DECLARACIÓN
+ Seleccione desde el menú de ingresos la opción Firmantes Declaración para acceder a la ventana de ingreso respec-
+tiva, el cuadro de menú y la ventana de ingresos se ilustran en las siguientes figuras:
+
+
+
+
+Esta opción permite generar la hoja de ‘Declaración de Responsabilidad’ que debe adjuntarse a la FECU S.A., con
+los nombres y las firmas de quienes se responsabilizan por la información contenida en la FECU confeccionada.
+
+En ella se ingresa el RUT, Nombre y Cargo de quienes asumen la responsabilidad de la información que se remite,
+en el mismo orden con que se quiere que aparezcan en la hoja impresa.
+
+Utilice el comando ‘Agregar fila’ para incorporar nuevas filas a la planilla.
+Utilice el comando ‘Aceptar’ para grabar los datos ingresados.
+Utilice el comando ‘Eliminar Fila’ para eliminar cualquiera de las filas de la planilla
+
+
+
+
+Manual de usuario software FECUSA.doc               - 37 -
+4.1. VALIDACIONES
+
+Seleccione la opción validaciones del menú para efectuar la validación de los datos ingresados, el proceso de valida-
+ción incluye opciones para validación de Estados Financieros y Validación de Notas explicativas, cada una de las
+operaciones se realiza por separado.
+
+El menú de selección de validaciones y las pantallas asociadas a esta opción se ilustran en las siguientes figuras:
+
+
+
+
+En esta ventana debe indicarse los parámetros para la validación de los estados financieros:
+• Clasificación de la Sociedad: Se debe escoger una de las seis clasificaciones de sociedad.
+• Si se trata de una sociedad securitizadora
+• El día y mes de cierre del ejercicio anual según estatutos.
+• El tipo de balance que quiere validarse (Individual o Consolidado).
+
+Importante
+Los valores ingresados como parámetros de validación, determinan las reglas de validación a aplicar a los Estados
+Financieros, por lo cual deben especificarse de acuerdo a las características reales de la sociedad en cuestión.
+Manual de usuario software FECUSA.doc              - 38 -
+Una vez ingresados estos valores, al presionar el botón ‘Iniciar’ comienza el proceso de validación, el cual, al termi-
+nar presenta un el mensaje ‘Validación de Estados Financieros finalizada correctamente’, si el proceso no encuentra
+errores, en caso contrario el mensaje ‘Validación de Estados Financieros finalizada con errores’, es presentada al
+usuario. En este último caso, junto al mensaje de término de proceso con errores, se presenta un listado con los erro-
+res de validación encontrados.
+
+La siguiente figura ilustra el mensaje de error presentado por el sistema y la lista de errores encontrados.
+
+
+
+
+Este listado, agrupa los errores por período, indicando además del mensaje de error, los valores que considera la
+regla de validación aplicada, y la diferencia encontrada si corresponde.
+
+Comando Grabar Utilice este comando para grabar a un archivo de texto los errores encontrados.
+
+Comando Imprimir Utilice este comando para enviar a la impresora los resultados del proceso de validación y los
+errores encontrados.
+
+
+
+
+Manual de usuario software FECUSA.doc              - 39 -
+ 4.2. VALIDACIÓN DE NOTAS EXPLICATIVAS
+
+ El menú de selección de validaciones incluye una opción para la validación de las notas explicativas, las pantallas
+ asociadas a esta opción se ilustran en las siguientes figuras:
+
+
+
+
+Un vez seleccionada la opción de validación se presenta la pantalla de selección de tipo de balance que se ilustra en la
+siguiente figura:
+
+
+
+
+ Durante el proceso de validación se valida el contenido de las notas explicativas, y su interconexión con los estados
+ financieros. Esto incluye entre otros, chequeo de presencia de nota explicativa cuando es necesaria, cuadratura de
+ datos de los cuadros, y de la información de éstos, con los estados financieros.
+
+ En esta pantalla, debe indicarse el tipo de balance que se quiere validar antes de iniciar el proceso.
+
+ Al término del proceso de validación se presenta un mensaje al usuario que indica si la operación termino en forma
+ exitosa o si ésta terminó con errores. En este último caso, junto al mensaje de término de proceso con errores se
+ presenta un listado con los errores de validación encontrados como se ilustra en la siguiente figura:
+
+
+
+
+ Manual de usuario software FECUSA.doc               - 40 -
+El listado de errores agrupa los errores indicando el nombre de la nota explicativa a la cual se asocia el error. El error
+puede producirse porque la información del (o los) cuadros no con los estados financieros, o porque no se incluye
+información en una nota explicativa que es obligatoria. Se indica en el listado, además del mensaje de error, los valo-
+res que considera la regla de validación aplicada y la diferencia encontrada si corresponde.
+
+Comando Grabar Utilice este comando para grabar a un archivo de texto los errores encontrados.
+
+Comando Imprimir Utilice este comando para enviar a la impresora los resultados del proceso de validación y los
+errores encontrados.
+
+Importante
+La información ingresada, tanto de estados financieros, como de notas explicativa, debe quedar sin errores de valida-
+ción, para poder generar los archivos que serán enviados a la SVS.
+
+
+
+
+Manual de usuario software FECUSA.doc               - 41 -
+5. MODULO DE IMPRESIÓN
+
+5.1. REQUISITOS PARA LA IMPRESIÓN
+
+Tamaño de Papel
+Todos los informes que emite el sistema FECUSA fueron diseñados para ser impresos en papel de tamaño (8.5 x 13
+pulgadas o 21.6 x 33 cms.), al cual en Chile llamamos “Oficio”. Para imprimir, no debe definirse tamaño de papel,
+éste está definidos internamente en el software.
+
+Impresora
+La impresora deberá ser láser que pueda en su primera bandeja utilizar papel de tamaño oficio.
+La impresión se realizará en la impresora PREDETERMINADA del equipo en el cual corre la aplicación.
+
+5.2. IMPRESIÓN
+
+Seleccione desde la barra de menú la opción impresión para acceder al la pantalla se selección de informes. La op-
+ción de menú y la pantalla de selección de informes se muestran en la siguiente figura:
+
+
+
+
+En esta ventana se debe seleccionar el informe que se desea imprimir, marcando por medio de un clic con el mouse
+el recuadro asociado a cada informe. De esta forma, se puede seleccionar sólo una parte de la FECU o todos sus
+componentes. Sólo se imprimirá lo que esté ‘tickeado’, por lo cual debe tenerse especial cuidado, en imprimir todos
+los componentes en los cuales se ha ingresado información.
+
+
+
+Manual de usuario software FECUSA.doc            - 42 -
+                           Selección el dispositivo al cual desea enviar los datos
+
+
+
+                           La selección de este comando permite imprimir o presentar por pantallas todos los informes
+                           del sistema.
+
+                           Seleccione este comando para completar la operación de impresión hacia el dispositivo pre-
+                           viamente seleccionado.
+
+
+    SELECCIÓN DE ELEMENTOS A IMPRIMIR
+
+    Los distintos elementos de la FECU, que pueden imprimirse ya sean individualmente o en conjunto
+
+•   Individual o Consolidado
+    Seleccione el tipo de balance que desea imprimir
+
+•   Carátula
+    Esta opción permite imprimir a la primera hoja de la FECU en la cual aparece la identificación de la Sociedad.
+
+•   Estados Financieros
+    Se encuentra dividido en cada uno Activos, Pasivos, Estado de Resultados, Estado de Flujo de Efectivo – Directo y
+    Conciliación, o Estado de Flujo de Efectivo, desde esta lista puede seleccionar cualquiera de los informes disponi-
+    bles.
+
+•   Análisis Razonado
+    Seleccione esta opción imprimir el informe de Análisis Razonado
+
+•   Hechos Relevantes
+    Seleccione esta opción imprimir el informe de Hechos Relevantes
+
+•   Informe de los auditores externos
+    Seleccione esta opción imprimir el informe de Auditores Externos
+
+•   Informe de revisión de Información Financiera interina de los auditores externos
+    Seleccione esta opción imprimir el informe de Información Financiera de Auditores Externos
+
+•   Declaración de Responsabilidad
+    Esta opción permite imprimir la hoja de Declaración de Responsabilidad. Al seleccionar en el recuadro esta opción
+    para ser impresa, se activarán las opciones para indicar si se trata de una FECU anual o trimestral, y para marcar
+    todos los componentes que se incluirán en la FECU que será enviada a la SVS.
+    Como ejemplo, se muestra la selección de impresión para una declaración de responsabilidad de una FECU trimes-
+    tral, que al imprimirse, tendrá marcados con una ‘X’ los Estados Financieros, las notas explicativas y el medio mag-
+    nético, debidamente identificado.
+
+
+
+
+    Manual de usuario software FECUSA.doc              - 43 -
+• Notas explicativas a los Estados Financieros definidas por la SVS
+Para imprimir el texto de las notas explicativas, y los cuadros asociados a éstas, se debe seleccionar el recuadro as o-
+ciado tanto a la nota, como a cada uno de los cuadros que quiere imprimirse. Como ejemplo, se muestra la selección
+de impresión para el texto de la nota 22, el texto de la nota 27 y todos sus cuadros:
+
+
+
+
+• Notas Adicionales explicativas a los Estados Financieros
+De haber ingresado notas adicionales, estas podrán seleccionarse para impresión en el recuadro que a continuación se
+muestra. En el caso de este ejemplo, se seleccionan para impresión las dos notas adicionales ingresadas:
+
+
+
+
+Observaciones importantes relacionadas a la impresión de las Notas explicativas
+
+Las notas explicativas, se imprimen con un correlativo de impresión asociado a la cantidad de notas explicativas que
+la sociedad ingrese. Por esto, el número con el cual se identifica una nota explicativa en la aplicación, puede no co-
+rresponder al correlativo con el cual será impresa.
+
+La información de notas explicativas incluida en cuadros en planillas Excel, debe imprimirse a través del software de
+planilla electrónica Excel. Esta aplicación, no incluye la impresión antes mencionada.
+
+Si se intenta imprimir un cuadro al cual no se han ingresado datos el sistema presenta un mensaje de error.
+Para planillas Excel adjuntas, el sistema imprime sólo el correlativo correspondiente, la nota impresa desde Excel
+debe adjuntarse a este correlativo.
+
+
+
+
+Manual de usuario software FECUSA.doc              - 44 -
+6.0. GENERACIÓN DE ARCHIVOS
+
+
+Esta opción de menú permite producir los archivos que las sociedades deben informar a SVS, para efectuar la opera-
+ción se debe seleccionar la opción Genera Archivos del menú de la aplicación, y luego tomar la opción Genera Ar-
+chivos FECU, para posteriormente generar archivos con la Carátula y Estados Financieros y Notas.
+
+El menú de generación de archivos se ilustra en la siguiente figura:
+
+
+
+
+Los archivos generados por esta opción de menú quedan grabados en el directorio C:\Archivos de Progra-
+ma\ Fecusa\Archivos_Fecu
+
+
+
+
+Al seleccionar el comando ‘Aceptar’ se presenta la ventana de selección de tipo de balance con las opciones Indivi-
+dual o Consolidado, una vez hecha la selección y luego de seleccionar el comando ‘OK’ comenzará el proceso de
+generación de archivos.
+
+
+
+
+Al término del proceso de generación de archivos el sistema presenta un mensaje que indica si la operación terminó
+en forma exitosa o si la operación terminó con errores. Ejemplo de los mensajes presentados por el sistema se ilus-
+tran a continuación:
+
+
+
+
+Manual de usuario software FECUSA.doc              - 45 -
+Importante
+Para poder generar los archivos con la información de la FECU, se tiene que haber validado correctamente la infor-
+mación, tanto de Estados Financieros como de Notas Explicativas. De lo contrario, al intentar generar los archivos,
+se desplegará el siguiente mensaje de error:
+
+
+
+
+Manual de usuario software FECUSA.doc            - 46 -
+7.0. RESPALDO DE DATOS
+
+Esta opción del menú permite crear una copia de seguridad de las bases de datos del sistema. Además, y desde esta
+opción es posible recuperar dato que hayan sido respaldados anteriormente.
+
+7.1. GENERA RESPALDOS
+Seleccione esta opción menú para iniciar la operación de respaldo de datos. Una vez hecha la selección el sistema
+presenta la siguiente pantalla:
+
+
+
+
+Seleccione la unidad de disco y directorio donde se encuentra la base de datos que desea respaldar, una vez hecha la
+selección haga clic con el mouse sobre el comando Aceptar para iniciar la operación de respaldo, el sistema presen-
+tará un mensaje de confirmación que el usuario debe aceptar para iniciar la operación.
+
+
+
+
+Después de la confirmación del mensaje se inicia la operación de respaldo de datos. Al término de la operación el
+sistema presenta un mensaje que indica que la operación ha terminado en forma exitosa.
+
+
+
+
+Manual de usuario software FECUSA.doc            - 47 -
+7.2. RECUPERA DATOS DESDE RESPALDOS
+
+Esta opción del menú permite restaurar datos desde una unidad de respaldo. La recuperación de datos requiere que
+no existan planillas de ingreso de datos activas, por lo cual el sistema antes de iniciar el respaldo de los datos, cierra
+todas las ventanas activas.
+
+
+
+
+La operación de recuperación de datos desde una unidad de respaldo, re-escribe los datos que vienen de la unidad de
+respaldo sobre aquellos que existen en la base de datos, consecuentemente, una operación de respaldo incorrecta
+puede producir pérdidas de la información existente en la base de datos.
+
+
+
+
+Seleccione la unidad de disco y directorio que contiene la base de datos que desea restaurar, una vez hechas las
+selecciones el sistema presenta una ventana de confirmación para iniciar la operación de respaldo.
+
+
+
+
+Manual de usuario software FECUSA.doc               - 48 -
+        Después de la confirmación del usuario a este mensaje se inicia el proceso de restauración de datos.
+        Al término de la operación de recuperación de datos el sistema presenta un mensaje indicando que la opera-
+        ción se realizo en forma exitosa.
+
+
+
+
+8.0. PREPARACIÓN DE ARCHIVOS PARA SER ENVIADOS A LA SVS
+
+La ubicación de los archivos que deben ser enviados a la SVS, es la siguiente:
+
+C:\Archivos de programa\ Fecusa\Archivos_fecu
+
+Los archivos generados por la aplicación, y que deben ser enviados a la SVS, son los siguientes:
+
+ARCHIVOS_FECUSA_AAAAMMB.RUT.ZIP
+PLANILLAS_FECUSA_AAAAMMB.RUT.ZIP
+
+Donde, AAAAMM corresponde al año y mes de término del periodo informado, B corresponde al tipo de balance
+(I/C) y RUT corresponde al RUT de la sociedad a la cual pertenece la información.
+
+
+
+
+Manual de usuario software FECUSA.doc             - 49 -
+                                           ANEXO Manual FECU S.A.
+
+
+    9. Anexo 1: NUEVAS FUNCIONALIDADES Y MODIFICACIONES FECUSA VERSIÓN 2.5
+
+Ingreso de Estados Financieros
+
+    o    Se debe ingresar valores negativos con signo menos (-) en las siguientes cuentas: (Página 15)
+             o 5.12.60.00 Depreciación acumulada
+             o 2.13.10.40 Mayor valor de inversiones
+             o 5.13.10.80 Amortización
+             o 5.24.53.00 Pérdidas acumuladas
+             o 5.24.55.00 Dividendos provisorios
+             o 5.31.11.12 Costos de explotación
+             o 5.31.11.20 Gastos de Administración y ventas
+             o 5.31.12.40 Pérdida inversión empresas relacionadas
+             o 5.31.12.50 Amortización menor valor de inversiones
+             o 5.31.12.60 Gastos financieros
+             o 5.31.12.70 Otros egresos fuera de la explotación
+             o 5.41.11.50 Pago a proveedores y personal
+             o 5.41.11.60 Intereses pagados
+             o 5.41.11.70 Impuesto a la renta pagado
+             o 5.41.11.80 Otros gastos pagados
+             o 5.41.11.90 I.V.A. y otros similares pagados
+             o 5.41.12.35 Pago de Dividendos
+             o 5.41.12.40 Repartos de Capital
+             o 5.41.12.45 Pago de préstamos
+             o 5.41.12.50 Pago de obligaciones con el público
+             o 5.41.12.55 Pago de préstamos documentados de empresas relacionadas
+             o 5.41.12.60 Pago de otros préstamos de empresas relacionadas
+             o 5.41.12.65 Pago de gastos por emisión y colocación de acciones
+             o 5.41.12.70 Pago de gastos por emisión y colocación de obligaciones con el público
+             o 5.41.12.75 Otros desembolsos por financiamiento
+             o 5.41.13.35 Incorporación de activos fijos
+             o 5.41.13.40 Pago de intereses capitalizados
+             o 5.41.13.45 Inversiones Permanentes
+             o 5.41.13.50 Inversiones en instrumentos financieros
+             o 5.41.13.55 Préstamos documentados a empresas relacionadas
+             o 5.41.13.60 Otros préstamos a empresas relacionadas
+             o 5.41.13.65 Otros desembolsos de inversión
+             o 5.50.20.20 Utilidad en venta de inversiones
+             o 5.50.30.20 Utilidad devengada en inversiones en empresas relacionadas
+             o 5.50.30.35 Amortización mayor valor de inversiones
+             o 5.50.30.50 Otros abonos a resultado que no representan flujo de efectivo
+
+
+Ingreso de Notas Explicativas
+
+    o   En el ingreso de la información de los cuadros de las notas explicativas, permite guardar lo ya ingresado y
+        salir de la aplicación temporalmente, aún cuando no se haya completado la información solicitada, o ésta
+        contenga errores. No obstante, al momento de validar la información, estos cuadros deben estar grabados
+        exitosamente, de lo contrario, la validación contendrá errores por este concepto.
+
+    o  Se elimina la exigencia de completar con información todas las celdas de los cuadros de las notas explicati-
+       vas.
+   o En el cuadro 13 las columnas de porcentajes de participación se aumentó la cantidad de decimales a 10.
+Manual de usuario software FECUSA.doc          - 50 -
+    o   En el cuadro 3, la celda valores negociables es de tipo numérica y con signo
+
+Validación de Estados Financieros y Notas
+
+    o   En la ventana de Validación de Estados Financieros, se agregaron las siguientes clasificaciones de socieda-
+        des: (Página 38)
+             o Sociedad Administradora de Fondos
+             o Bolsas
+             o Depósito Central de Valores (DCV)
+    o   Para las empresas que califican como Administradoras de Fondos, Bolsas o DCV se aplican las siguientes
+        validaciones:
+             o El ingreso de Hechos Relevantes es obligatorio
+             o La nota 1 es obligatoria (debe incluir texto o planilla)
+             o La nota 35 es obligatoria (debe incluir texto o planilla) no así los cuadros
+             o La nota 38 es obligatoria (debe incluir texto o planilla)
+             o La nota 40 es obligatoria (debe incluir texto o planilla) y además completar los cuadros.
+
+    o Se incluyen las siguientes reglas de validación en los EF:
+           o Flujo Neto total del período = Flujo operacional + Flujo de inversión + Flujo de financiamiento
+           o Variación neta del efectivo equivalente = Flujo neto total del período + Efecto de la inflación so-
+               bre el efectivo y ef. Equivalente
+           o Saldo final de efectivo y efectivo equivalente = Variación neta del efectivo y efectivo equivalente
+               + Saldo inicial de efectivo y efectivo equivalente.
+
+    o    Se incluye la siguiente regla de validación para las sociedades en etapa preoperativa:
+         Código 5.24.54.00 "Utilidad (pérdida) del ejercicio" del Balance General, sea igual al código 5.30.00.00
+        "Utilidad (pérdida) del ejercicio" del Estado de Resultados, y a su vez éstos sean igual a 0 (cero).
+
+    o   Se incluyen las siguientes reglas de validación en H. Relevantes, A. Razonado e Informes de Auditores Ex-
+        ternos:
+             o Se valida la presencia de A. Razonado y Hechos Relevantes siempre.
+             o Se valida la presencia cuando corresponda, de cada uno de los informes de Auditores Externos.
+
+    o   Se incluye la siguiente regla de validación al cuadro 28:
+          Total Cargos/Abonos Activos + Total Cargos/Abonos Pasivos = Perdida unidad x diferencias de cambio.
+
+    o    Se incluye validación interactiva de sumas horizontales en el cuadro 18.
+
+
+Nuevas Funcionalidades
+
+    o   El sistema permite ser utilizado en forma multiusuario y multiempresa (Página 13)
+    o   Permite exportar/importar los estados financieros y cuadros a planillas Excel (Página 18; 27)
+    o   Generación de los archivos en formato ZIP (Página 49)
+
+
+
+
+Manual de usuario software FECUSA.doc            - 51 -
+
