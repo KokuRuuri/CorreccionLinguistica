@@ -773,7 +773,7 @@ el cuadro de menú y la ventana de ingresos de Análisis Razonado se ilustran en
 
 
 
-Ingrese en esta pantalla el texto asociado a la información solicitada, adixcionalmente se puede adjuntar una planilla
+Ingrese en esta pantalla el texto asociado a la información solicitada, adicionalmente se puede adjuntar una planilla
 Excel que contenga información complementaria. Para adjuntar planilla Excel ingrese el nombre de la planilla de-
 seada, ésta última debe estar grabada en la carpeta C:\Archivos de Programa\Fecusa\Archivos_fecu.
 
@@ -795,7 +795,7 @@ Ingrese en esta pantalla el texto asociado a la información solicitada.
 
 
 Manual de usuario software FECUSA.doc               - 34 -
-3.7. INFORMES DE REVISIÓN DE INFORMACIÓN FINANvIERA INTERINA DE LOS AUDITORES
+3.7. INFORMES DE REVISIÓN DE INFORMACIÓN FINANCIERA INTERINA DE LOS AUDITORES
      EXTERNOS.
 
 Seleccione desde el menú de ingresos la opción Informe de Revisión de información financiera interina de los audi-
@@ -813,7 +813,7 @@ la empresa auditora, RUT y nombre del socio de ésta que firma el informe.
 Manual de usuario software FECUSA.doc             - 35 -
 3.8. INFORMES DE AUDITORES EXTERNOS
 
-Seleccione desde el menú de ingresos la opción Informe de Auditores Externos para acceder a la ventana de ingreso
+Seleccione desde el menú de ingresos la opción "Informe de Auditores Externos" para acceder a la ventana de ingreso
 respectiva, el cuadro de menú y la ventana de ingresos se ilustran en las siguientes figuras:
 
 
@@ -1270,4 +1270,5 @@ Nuevas Funcionalidades
 
 
 Manual de usuario software FECUSA.doc            - 51 -
+
 
