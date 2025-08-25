@@ -21,6 +21,8 @@ El software detectó el nombre FECUSA como una falla ortográfica y sugirió cam
 + Seleccione desde la barra de menú la opción impresión para acceder a la pantalla de selección de informes. 
 Se sugirió el cambio de “se selección” a “de selección”, cambio permitido
 
+5.2 IMPRESIÓN
+
 - En esta ventana se debe seleccionar el informe que se desea imprimir, marcando por medio de un clic con el mouse el recuadro asociado a cada un informe. De esta forma, se puede seleccionar sólo una parte de la FECU e todos sus componentes. Sólo se imprimirá lo que esté ‘tickeado’, por lo cual debe tenerse especial cuidado, en imprimir todos los componentes en los cuales se ha ingresado información.
 + En esta ventana se debe seleccionar el informe que se desea imprimir, marcando por medio de un clic con el mouse el recuadro asociado a cada un informe. De esta forma, se puede seleccionar solo una parte de la FECU en todos sus componentes. Solo se imprimirá lo que esté ‘tickeado’, por lo cual debe tenerse especial cuidado, en imprimir todos los componentes en los cuales se ha ingresado información.
 El software sugirió el cambio de la palabra “mouse” a “morse” y la palabra “tickeado” por “teclado”, cambio que no fue autorizado debido a que “mouse” o “tickeado” vienen del inglés y están escritos correctamente, pero como está en otro idioma, el software no la reconoce y la trata de cambiar. Además sugiere cambiar la palabra “FECU” por “ECU”, cambio que también omitimos. Además sugiere quitarle el acento a la palabra “sólo”, cambio que fué permitido. también sugirió cambiar “e todos” por “en todos”, cambio aceptado.
@@ -28,3 +30,19 @@ El software sugirió el cambio de la palabra “mouse” a “morse” y la pala
 - Esta opción permite imprimir la hoja de Declaración de Responsabilidad. Al seleccionar en el recuadro esta opción para ser impresa, se activarán las opciones para indicar si se trata de una FECU anual o trimestral, y para marcar todos los componentes que se incluirán en la FECU que será enviada a la SVS. Como ejemplo, se muestra la selección de impresión para una declaración de responsabilidad de una FECU trimestral, que al imprimirse, tendrá marcados con una ‘X’ los Estados Financieros, las notas explicativas y el medio magnético, debidamente identificado.
 + Esta opción permite imprimir la hoja de Declaración de Responsabilidad. Al seleccionar en el recuadro esta opción para ser impresa, se activarán las opciones para indicar si se trata de una FECU anual o trimestral, y para marcar todos los componentes que se incluirán en la FECU que será enviada a la SVS. Como ejemplo, se muestra la selección de impresión para una declaración de responsabilidad de una FECU trimestral, que al imprimirse, tendrá marcados con una ‘X’ los Estados Financieros, las notas explicativas y el medio magnético, debidamente identificado.
 El software sugiere el cambio en las palabras “para” y “todos” por “Para” y “Todos”, cambio que no fue aceptado por que no hay necesidad de usar las mayúsculas en esas palabras. Además sugiere el cambio de “SVS” a “SUS” o “SOS”, cambio que tampoco fue aceptado.
+
+- “Seleccione esta opción imprimir"
++ “Seleccione esta opción para imprimir"
+
+Se agregó el "para" para darle un proposito a la acción, pues, sin ella queda incompleta, le hacía falta el complemento de la finalidad.
+
+- Para imprimir el texto de las notas explicativas, y los cuadros asociados a éstas, se debe seleccionar el recuadro asociado tanto a la nota, como a cada uno de los cuadros que quiere imprimirse.
++ Para imprimir el texto de las notas explicativas y los cuadros asociados a éstas, se debe seleccionar el recuadro asociado tanto a la nota, como a cada uno de los cuadros que quiere imprimir.
+
+Sustituimos la construcción innecesariamente reflexiva “quiere imprimirse” por la forma directa “quiere imprimir”, que es clara y gramaticalmente adecuada. También se removió la coma antes de "y" ya que sobraba.
+
+- Para planillas Excel adjuntas, el sistema imprime sólo el correlativo correspondiente, la nota impresa desde Excel debe adjuntarse a este correlativo.
++ Para planillas Excel adjuntas, el sistema imprime solo el correlativo correspondiente, la nota impresa desde Excel debe adjuntarse a este correlativo.
+
+Outwriter sugiere remover la acentuación de la palabra "sólo", lo cual es correcto, porlo tanto se le quitó la acentuación de la palabra. ¿por qué? esto se debe a que es una palabra grave. Pese a que anterioremente se le colocaba tílde para diferenciarlo de la palabra solamente, esta norma cambió en 2010.
+
