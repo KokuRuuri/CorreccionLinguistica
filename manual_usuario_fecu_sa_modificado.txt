@@ -937,14 +937,12 @@ ción, para poder generar los archivos que serán enviados a la SvS.
 
 
 Manual de usuario software FECUSA.doc               - 41 -
-5. MODULO DE IMPRESIÓN
-
+5. MÓDULO DE IMPRESIÓN
 5.1. REQUISITOS PARA LA IMPRESIÓN
 
 Tamaño de Papel
-Todos los informes que emite el sistema FECUSA fueron diseñados para ser impresos en papel de tamaño (8.5 x 13
-pulgadas o 21.6 x 33 cms.), al cual en Chile llamamos “Oficio”. Para imprimir, no debe definirse tamaño de papel,
-éste está definidos internamente en el software.
+Todos los informes que emite el sistema FECUSA fueron diseñados para ser impresos en papel de tamaño (8.5 x 13 pulgadas o 21.6 x 33 cm.), al cual en Chile 
+llamamos “Oficio”. Para imprimir, no debe definirse tamaño de papel, este está definido internamente en el software.
 
 Impresora
 La impresora deberá ser láser que pueda en su primera bandeja utilizar papel de tamaño oficio.
@@ -952,16 +950,16 @@ La impresión se realizará en la impresora PREDETERMINADA del equipo en el cual
 
 5.2. IMPRESIÓN
 
-Seleccione desde la barra de menú la opción impresión para acceder al la pantalla se selección de informes. La op-
+Seleccione desde la barra de menú la opción impresión para acceder a la pantalla de selección de informes. La op-
 ción de menú y la pantalla de selección de informes se muestran en la siguiente figura:
 
 
 
 
-En esta ventana se debe seleccionar el informe que se desea imprimir, marcando por medio de un clic con el mouse
-el recuadro asociado a cada un informe. De esta forma, se puede seleccionar sólo una parte de la FECU e todos sus
-componentes. Sólo se imprimirá lo que esté ‘tickeado’, por lo cual debe tenerse especial cuidado, en imprimir todos
-los componentes en los cuales se ha ingresado información.
+En esta ventana se debe seleccionar el informe que se desea imprimir, marcando por medio de un clic con el mouse 
+el recuadro asociado a cada un informe. De esta forma, se puede seleccionar solo una parte de la FECU en todos 
+sus componentes. Solo se imprimirá lo que esté ‘tickeado’, por lo cual debe tenerse especial cuidado, en imprimir 
+todos los componentes en los cuales se ha ingresado información.
 
 
 
@@ -1005,12 +1003,13 @@ Manual de usuario software FECUSA.doc            - 42 -
     Seleccione esta opción imprimir el informe de Información Financiera de Auditores Externos
 
 •   Declaración de Responsabilidad
-    Esta opción permite imprimir la hoja de Declaración de Responsabilidad. Al seleccionar en el recuadro esta opción
-    para ser impresa, se activarán las opciones para indicar si se trata de una FECU anual o trimestral, y para marcar
-    todos los componentes que se incluirán en la FECU que será enviada a la SVS.
-    Como ejemplo, se muestra la selección de impresión para una declaración de responsabilidad de una FECU trimes-
-    tral, que al imprimirse, tendrá marcados con una ‘X’ los Estados Financieros, las notas explicativas y el medio mag-
-    nético, debidamente identificado.
+Esta opción permite imprimir la hoja de Declaración de Responsabilidad. Al seleccionar en el 
+recuadro esta opción para ser impresa, se activarán las opciones para indicar si se trata de 
+una FECU anual o trimestral, y para marcar todos los componentes que se incluirán en la FECU que 
+será enviada a la SVS. Como ejemplo, se muestra la selección de impresión para una declaración 
+de responsabilidad de una FECU trimestral, que al imprimirse, tendrá marcados con una ‘X’ los 
+Estados Financieros, las notas explicativas y el medio magnético, debidamente identificado.
+
 
 
 
@@ -1270,4 +1269,5 @@ Nuevas Funcionalidades
 
 
 Manual de usuario software FECUSA.doc            - 51 -
+
 
