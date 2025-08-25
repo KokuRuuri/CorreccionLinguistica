@@ -78,8 +78,7 @@ Manual de usuario software FECUSA.doc              -5 -
 2. INGRESO A LA APLICACIÓN
 
 
-Desde la barra de tareas de Windows seleccione el comando Inicio, luego desde el grupo programas seleccione el
-ítem FECU S.A. una vez hechas las selecciones se activa la aplicación.
+Desde la barra de tareas de Windows seleccione el comando Inicio, luego desde el grupo programas seleccione el ítem FECU S.A. una vez hechas las selecciones se activa la aplicación.
 
 A continuación se presenta la pantalla de activación de la aplicación:
 
@@ -88,8 +87,7 @@ A continuación se presenta la pantalla de activación de la aplicación:
 
 Importante
 
-a) Que esta aplicación ha sido desarrollada, para trabajar bajo ambiente Windows, por lo cual los usuarios siste-
-ma deben estar familiarizados con este ambiente de trabajo y conocer aspectos básicos como:
+a) Que esta aplicación ha sido desarrollada, para trabajar bajo ambiente Windows, por lo cual los usuarios sistema deben estar familiarizados con este ambiente de trabajo y conocer aspectos básicos como:
 
 •   Uso del Mouse
 •   Manija de ventanas (abrir, cerrar, minimizar, maximizar, moverlas con el mouse, etc.)
@@ -98,18 +96,15 @@ ma deben estar familiarizados con este ambiente de trabajo y conocer aspectos b�
 
 b) Configuración Regional de Windows
 
-La Configuracion Regional indica al sistema, cuáles son los parámetros que se deben utilizar para darle for-
-mato a los números, fecha y hora del computador.
+La Configuración Regional indica al sistema, cuáles son los parámetros que se deben utilizar para darle formato a los números, fecha y hora del computador.
 
-La Aplicación FECU S.A. requiere que la configuración regional de windows se encuentre seteado con los
-siguientes parámetros:
+La Aplicación FECU S.A. requiere que la configuración regional de Windows se encuentre configurado con los siguientes parámetros:
 
 
 
 
 Manual de usuario software FECUSA.doc               -6 -
-Y, aunque la aplicación FECU S.A. por si sola lo setea, esta configuración debe permanecer así mientras ésta
-se ejecuta.
+Y, aunque la aplicación FECU S.A. por sí sola lo configura, esta configuración debe permanecer así mientras esta se ejecuta.
 
 
 
@@ -117,19 +112,19 @@ se ejecuta.
 Manual de usuario software FECUSA.doc          -7 -
 Iniciar Sistema
 Al iniciar el sistema se presenta la ventana de identificación de usuario en la cual se debe ingresar la contraseña de
-acceso al sistema . El formato de la pantalla de ingrezo al sistema se presenta continuación:
+acceso al sistema. El formato de la pantalla de ingreso al sistema se presenta continuación:
 
 
 
 
 Contraseña:            Ingrese en esta área la contraseña de acceso al sistema
-Aceptar:               Haga un click con el botón izquierdo del mouse sobre este comando para confirmar la operación.
+Aceptar:               Haga un clic con el botón izquierdo del mouse sobre este comando para confirmar la operación.
 Cancelar:              Haga un clic con el botón izquierdo del mouse sobre este comando para cancelar la operación
 
 
 
 Cambio Contraseña:       Utilice esta opción toda vez que desee cambiar la contraseña de ingreso al sistema. Haga
-                          un clic con el botón izquierdo del mouse dentro del mcaja de selección que aparece a la
+                          un clic con el botón izquierdo del mouse dentro de la caja de selección que aparece a la
                           izquierda de la palabra “Cambiar Contraseña”, luego haga clic en comando Aceptar para
                           confirmar la operación, el sistema FECUSA presentará la siguiente pantalla:
 
@@ -137,8 +132,8 @@ Cambio Contraseña:       Utilice esta opción toda vez que desee cambiar la con
 
 
 Nueva Contraseña:                  Ingrese en esta área la nueva contraseña que desea empezar a utilizar
-Verificación de Contraseña:        Repita en esta area la nueva contraseña que desea empezar a utilizar
-Aceptar:                           Haga un clic  con el boton izquierdo del mouse sobre este comando para confirmar
+Verificación de Contraseña:        Repita en esta área la nueva contraseña que desea empezar a utilizar
+Aceptar:                           Haga un clic  con el botón izquierdo del mouse sobre este comando para confirmar
                                    la operación.
 
 
@@ -146,15 +141,15 @@ Aceptar:                           Haga un clic  con el boton izquierdo del mous
 
 Manual de usuario software FECUSA.doc              -8 -
 Ingreso Identificación de la Empresa
-La primera vez que utilice el sistema será necesario ing resar los datos de identificación de la empresa, para esta
+La primera vez que utilice el sistema será necesario ingresar los datos de identificación de la empresa, para esta
 operación el sistema presenta la pantalla de identificación en la cual el usuario debe completar la siguiente información:
 
-RUT:              Ingrese en ésta área el RUT de la empresa que informa
+RUT:              Ingrese en esta área el RUT de la empresa que informa
 Razón Social:     Ingrese en esta área la razón social de la empresa que informa
 Aceptar:          Haga un clic con el botón izquierdo del mouse sobre este comando para confirmar la operación
 Cancelar:         Haga un clic con el botón izquierdo del mouse sobre este comando para cancelar la operación.
 
-La pantalla de ingreso de edentificación de la empresa se ilustra en la siguiente figura:
+La pantalla de ingreso de identificación de la empresa se ilustra en la siguiente figura:
 
 
 
@@ -165,9 +160,8 @@ Manual de usuario software FECUSA.doc               -9 -
 
 
 
-El menú del sistema FECU S.A. presenta 7 grupos de opciones que le ayudarán a completar las operaciones de ingre-
-so de datos, producción de los distintos archivos requeridos por la Superintendencia de Valores y Seguros, respaldo
-de los datos del sisstema y otras funcionalidades que a continuación se explican en detalle.
+El menú del sistema FECU S.A. presenta 7 grupos de opciones que le ayudarán a completar las operaciones de ingreso de datos, producción de los distintos archivos requeridos por la Superintendencia de Valores y Seguros, respaldo
+de los datos del sistema y otras funcionalidades que a continuación se explican en detalle.
 
 3. INGRESO DE DATOS
 
@@ -184,7 +178,7 @@ en la lista de opciones presentadas en esta pantalla. Cada una de las opciones d
 Manual de usuario software FECUSA.doc             - 10 -
 3.1. CARÁTULA
 
-Esta opción del menú permite ingresar información complem entaria a la identificación de la empresa, también desde
+Esta opción del menú permite ingresar información complementaria a la identificación de la empresa, también desde
 esta opción se pueden modificar datos ingresados anteriormente.
 
 Al seleccionar la opción carátula el sistema presenta la siguiente pantalla de ingreso, modificación y selección de
@@ -197,16 +191,15 @@ Desde la pantalla de ingresos, y modificación de datos de la carátula se puede
 elementos:
 
 Razón Social           Ingrese la nueva razón social que desea utilizar en el sistema
-Fecha Inicio Período   Seleccione desde esta área la fecha que representaz inicio del período que se informa
+Fecha Inicio Período   Seleccione desde esta área la fecha que representa el inicio del período que se informa
 Fecha Término Período  Seleccione desde esta área la fecha que representa término del período que se informa
 Moneda                 Indique el tipo de moneda que se utilizará para ingresar la información de la FECU, las
                        monedas permisibles son Peso o Dólar.
-Método de Estado de Flujo de Efectivo Corresponde al método utilizado en el período que se informa, los valo-
-                                         res posibles para este ítem son Directo o Indirecto.
+Método de Estado de Flujo de Efectivo Corresponde al método utilizado en el período que se informa, los valores posibles para este ítem son Directo o Indirecto.
 
 Cada vez que se modifica alguna fecha de la carátula, el sistema presenta un mensaje indicando que eliminará los
-datos existentes en el sistema, y queda a espera de confirmación del usuario quien deberá confirmar si desea o no
-eliminar los datos existentes en el sistem.a
+datos existentes en el sistema, y queda a espera de confirmación del usuario, quien deberá confirmar si desea o no
+eliminar los datos existentes en el sistema.
 
 
 
@@ -224,25 +217,24 @@ NO      Ignora la eliminación de datos
 
 
 Manual de usuario software FECUSA.doc           - 12 -
-3.2.Configuración de Sistema para múltiples usuarios
+3.2. Configuración de Sistema para múltiples usuarios
 El sistema FECU S.A. puede ser configurado para ser utilizado por varios usuarios, en un entorno de red, para lograr
 esta funcionalidad se deben completar las siguientes acciones:
 
 a)   Instalar la aplicación en cada una de las computadoras desde donde se desea ejecutar el sistema
 
-b) Definir cual de las computadoras actuará como servidor de datos, compartir la carpeta, donde se tendrá la base
+b) Definir cuál de las computadoras actuará como servidor de datos, compartir la carpeta, donde se tendrá la base
    de datos, y dar los permisos necesarios (lectura y escritura) a los usuarios que utilizarán la aplicación.
 
 c)   Configurar cada una de las estaciones donde está instalado FECU S.A. para que acceda a la base de datos de la
-     comp utadora que actúa como servidor de datos, definiendo las unidades de disco de red.
+     computadora que actúa como servidor de datos, definiendo las unidades de disco de red.
 
-La instalación de FECU S.A. se debe realizar en forma independiente en cada computadora de la red, una vez que se
-ha terminado la instalación y se ha definido que computadora actuará como servidor de datos ejecute las siguientes
+La instalación de FECU S.A. se debe realizar en forma independiente en cada computadora de la red, una vez que se ha terminado la instalación y se ha definido que computadora actuará como servidor de datos, ejecute las siguientes
 operaciones:
 
 1.   Inicie la aplicación FECUSA
-2.   Desde el menú Ingreso de Datos seleccione opción Cambio Directorio Base de Datos, luego desde la pantalla
-     activa seleccione las siguientes opciones:
+2.   Desde el menú Ingreso de Datos, seleccione opción Cambio Directorio Base de Datos, luego desde la pantalla
+     activa, seleccione las siguientes opciones:
 
 
 
@@ -258,27 +250,24 @@ operaciones:
 
 Manual de usuario software FECUSA.doc             - 13 -
                                                                  Desde la lista de directorios activa, seleccione la
-                                                                 carpeta que contiene las bases datos, dicha carpe-
-                                                                 ta corresponde a aquella definida como servidor de
+                                                                 carpeta que contiene las bases datos, dicha carpeta               
+																  corresponde a aquella definida como servidor de
                                                                  datos.
 
-                                                                 Haga un clic en el comando Aceptar de la ventana
+                                                                   Haga un clic en el comando Aceptar de la ventana
                                                                  activa para confirmar su elección.
-
-
-
 
 Validación de Base de Datos
 Una vez que se ha confirmado la información de ubicación de la base de datos de red, el sistema valida la presencia
 de la base de datos en la unidad definida.
 
 Error al validar base de datos
-El siguiente mensaje es presentado al usuario si el sistema no encuentra la base de dato en la ubicación selecionada:
+El siguiente mensaje es presentado al usuario si el sistema no encuentra la base de dato en la ubicación seleccionada:
 
 
 
 
-Ante este mensaje, el us uario debe seleccionar el comando Aceptar y repetir la operación de selección de unidad de
+Ante este mensaje, el usuario debe seleccionar el comando Aceptar y repetir la operación de selección de unidad de
 red y directorio de base de datos.
 
 Validación Exitosa
@@ -291,8 +280,7 @@ Si la validación de la base de datos  exitosa, el sistema presenta un mensaje d
 Manual de usuario software FECUSA.doc              - 14 -
 3.3. ESTADOS FINANCIEROS
 La opción Ingreso de Estados Financieros permite acceder a una pantalla única para el ingreso de Activos, Pasivos,
-Estados de Resultados, Estados de Flujo Efectivo Directo, Conciliación Flujo de Resultados. Considerando que se
-trata de una pantalla única de ingresos , el modelo de pantalla que se presenta a continuación es válido para cada uno
+Estados de Resultados, Estados de Flujo Efectivo Directo, Conciliación, Flujo de Resultados. Considerando que se trata de una pantalla única de ingresos, el modelo de pantalla que se presenta a continuación es válido para cada uno
 de los tipos de ingresos que la pantalla administra
 
 Ingreso de Activos
@@ -302,9 +290,8 @@ Ingreso de Activos
 
 Actividades asociadas al ingreso de datos de los Estados Financieros
 Antes de empezar el ingreso de datos debe efectuar las siguientes selecciones:
-1.   Seleccionar estado financiero sobre el que se va a trabajar (Activos, Pasivo, Estado Resultado etc.)
-2.   Seleccionar el Tipo de Balance, Individual o Consolidado. Esta selección debe hacerse antes de iniciar el in-
-     greso de datos, en caso contrario perderá los datos ingresados.
+1.   Seleccionar estado financiero sobre el que se va a trabajar (Activos, Pasivo, Estado Resultado, etc.)
+2.   Seleccionar el Tipo de Balance, Individual o Consolidado. Esta selección debe hacerse antes de iniciar el ingreso de datos, en caso contrario perderá los datos ingresados.
 
 
 
@@ -312,7 +299,7 @@ Antes de empezar el ingreso de datos debe efectuar las siguientes selecciones:
 Manual de usuario software FECUSA.doc              - 15 -
                                                  Seleccione Estado Financiero
                                                  Seleccione desde la lista activa el tipo de estado financie-
-                                                 ro sobre el cual desea hacer ingresos .
+                                                 ro sobre el cual desea hacer ingresos.
 
 
 
@@ -320,7 +307,7 @@ Manual de usuario software FECUSA.doc              - 15 -
                                                  Tipo Balance
                                                  Seleccione la opción que represente el tipo de balance
                                                  deseado.
-                                                 Puede mantener información de los estados finansieros
+                                                 Puede mantener información de los estados financieros
                                                  para los dos tipos de balance de un mismo período.
 
 
@@ -328,12 +315,12 @@ Manual de usuario software FECUSA.doc              - 15 -
 
 Manual de usuario software FECUSA.doc   - 16 -
 Ingreso de Datos
-El ingreso de datos se hará en la columnas Nro. Nota, Actual, Anterior , y bastará con posicionar el cursor en la
+El ingreso de datos se hará en las columnas Nro. Nota, Actual, Anterior, y bastará con posicionar el cursor en la
 celda deseada y luego digitar los datos.
 
 Ingresos Números Negativos
 Al ingresar un número negativo debe anteponer el signo menos, luego ingresar el número, una vez completada la
-operación de ingreso el numero negativo es presentado entre paréntesis.
+operación de ingreso el número negativo es presentado entre paréntesis.
 
 
                                                             Nro. Nota
@@ -341,24 +328,23 @@ operación de ingreso el numero negativo es presentado entre paréntesis.
 							    a los datos de la cuenta que se ingresa.
                                                             Los datos de esta columna son opcionales.
                                                             Actual
-                                                            Ingrese en esta columna los valores correspondiente al
+                                                            Ingrese en esta columna los valores correspondientes al
                                                             período que se informa
                                                             Anterior
-                                                            Ingrese en esta columna los valores correspondiente al
+                                                            Ingrese en esta columna los valores correspondientes al
                                                             período anterior al cual se informa
 
 
 
 
 Copiar datos
-1. Seleccione los dat que desea copiar
+1. Seleccione los datos que desea copiar
 2. Mantenga presionada la tecla Ctrl y pulse por una vez la letra C
 3. Posicione el cursor en la celda de destino
 4. Mantenga presionada la tecla Ctrl y pulse por una vez la letra V para completar la operación
 
 Desplazamiento en celdas de ingreso
-Para desplazar el cursor de una selda a otra en la planilla puede utilizar las teclas de movimiento de cursor que apa-
-recen en el teclado simbolizadas por una flecha, o presionar la tecla ENTER.
+Para desplazar el cursor de una celda a otra en la planilla puede utilizar las teclas de movimiento de cursor que aparecen en el teclado simbolizadas por una flecha, o presionar la tecla ENTER.
 
                                                 Desplazamiento ENTER
                                                 Seleccione la opción que represente la dirección en que debe desplazarse
@@ -376,14 +362,14 @@ Para desplazar el cursor de una en la planilla y acceder a las filas o columnas 
 de desplazamiento que se ubica al extremo derecho o inferior de la planilla de ingreso de datos.
 
                                Barra de Avance
-                               Haga un click en la flecha de la barra de avance para desplazarse vertical u horizontalmente
+                               Haga un clic en la flecha de la barra de avance para desplazarse vertical u horizontalmente
 			       en la planilla de ingreso de datos.
 
 
 
 
 Borrar Datos
-Utilice la tecla suprimir para borrar datos que se encuentren la derecha de la posicin del cursor
+Utilice la tecla suprimir para borrar datos que se encuentren la derecha de la posición del cursor
 Utilice la tecla backspace para borrar datos que se encuentren a la izquierda de la posición del cursor.
 Manual de usuario software FECUSA.doc              - 17 -
                     Exportar
@@ -391,9 +377,7 @@ Manual de usuario software FECUSA.doc              - 17 -
                     dejando dicha planilla en el directorio “Archivos_Fecu”, el nombre de la planilla exportada
                     es creado automáticamente con el siguiente formato: Nombre del Cuadro, fecha en formato
                     año mes día RUT de la empresa.
-                    El siguiente ejemplo ilustra el nombre de un cuadro exportado a Excel: “Acti-
-                    vos_2001061.90635000.xls”. Al término de la operación de exportación a Excel el programa
-                    presenta un mensaje indicando que la operación completó en forma correcta.
+                    El siguiente ejemplo ilustra el nombre de un cuadro exportado a Excel: “Activos_2001061.90635000.xls”. Al término de la operación de exportación a Excel, el programa presenta un mensaje indicando que la operación completó en forma correcta.
 
                     Importar
                     Este comando permite importar datos u desde una Planilla Excel, la planilla que se desea
@@ -401,12 +385,11 @@ Manual de usuario software FECUSA.doc              - 17 -
                     Grabar
                     Seleccione este comando para grabar los datos que ha ingresado.
                     Salir
-                    La selección de este comando en la pantalla de ingreso de Estados Financieros retorna el
-                    control al menú principal del sistema.
+                    La selección de este comando en la pantalla de ingreso de Estados Financieros retorna el control al menú principal del sistema.
 
 
 Importar Datos
-Una vez seleccionado el comando Importar debe completar las siguientes operaciones:
+Una vez seleccionado el comando Importar, debe completar las siguientes operaciones:
 
     1.   Seleccionar el área de la planilla Excel que contiene los datos
     2.   Asignar nombre al área seleccionada
@@ -427,14 +410,9 @@ Ventana de selección de planilla Excel                     Ventana de selecció
 
                   Seleccione este comando para salir de la opción de importación de datos.
 
-
-
-
 Manual de usuario software FECUSA.doc             - 18 -
 Grabación de datos y Validaciones de cuadratura
-Al momento de grabar los datos ingresados y la aplicación realiza validaciones de cuadratura de cuentas, procediendo
-a grabar los datos sólo si se han ingresado correctamente los valores de cada una de las cuentas, en éste caso el sis-
-tema grabará los datos ingresados, y presentará un mensaje de información que indica el éxito de la operación de
+Al momento de grabar los datos ingresados y la aplicación realiza validaciones de cuadratura de cuentas, procediendo a grabar los datos solo si se han ingresado correctamente los valores de cada una de las cuentas, en este caso el sistema grabará los datos ingresados, y presentará un mensaje de información que indica el éxito de la operación de
 grabación.
 
 
@@ -450,26 +428,23 @@ El formato de la pantalla de errores de cuadratura presentado por sistema se ilu
 
 
 
-Grabar           Este comando permite grabar el mensaje de error presentado por el sis tema
+Grabar           Este comando permite grabar el mensaje de error presentado por el sistema
 Imprimir         Este comando permite imprimir  mensaje de error presentado por el sistema.
-                 Antes de imprimir el informe el usuario puede seleccionar la impresora a la cual desea dirigir el
-                 informe
+                 Antes de imprimir el informe, el usuario puede seleccionar la impresora a la cual desea dirigir el informe
 
 
 
 
 Manual de usuario software FECUSA.doc              - 19 -
 Ingreso de Pasivos
-El ingreso de pasivos presenta la pantalla única de ingreso de estados financieros, sólo cambia el conjunto de cuentas
-que forman la planilla de ingresos, las funciones explicadas para el ingreso de Activos y desplazamiento en la plani-
-lla son también aplicables a los Pasivos.
+El ingreso de pasivos presenta la pantalla única de ingreso de estados financieros, solo cambia el conjunto de cuentas
+que forman la planilla de ingresos, las funciones explicadas para el ingreso de Activos y desplazamiento en la planilla son también aplicables a los Pasivos.
 
 
 
 
 Ingreso Estados de Resultados
-El ingreso de Estados de Resul tados presenta la pantalla única de ingreso de estados financieros, sólo cambia el con-
-junto de cuentas que forman la planilla de ingresos, las funciones explicadas para el ingreso de Activos y desplaza-
+El ingreso de Estados de Resultados presenta la pantalla única de ingreso de estados financieros, solo cambia el conjunto de cuentas que forman la planilla de ingresos, las funciones explicadas para el ingreso de Activos y desplaza-
 miento en la planilla son también aplicables a los Estados de Resultados 
 
 
@@ -477,7 +452,7 @@ miento en la planilla son también aplicables a los Estados de Resultados
 
 Manual de usuario software FECUSA.doc             - 20 -
 Ingreso Estados de Flujo Efectivo Indirecto
-El ingreso de Estados de Flujo Efectivo Indirecto presenta la pantalla única de ingreso de estados financieros, sólo
+El ingreso de Estados de Flujo Efectivo Indirecto presenta la pantalla única de ingreso de estados financieros, solo
 cambia el conjunto de cuentas que forman la planilla de ingresos y las funciones explicadas para el ingreso de Activos
 y desplazamiento en la planilla son también aplicables a los Estados de Flujo Efectivo Indirecto.
 
@@ -486,8 +461,8 @@ y desplazamiento en la planilla son también aplicables a los Estados de Flujo E
 
 Manual de usuario software FECUSA.doc             - 21 -
 Ingreso Conciliación Flujo Resultados
-El ingreso de Conciliación Flujo de Resultados presenta la pantalla única de ingreso de estados financieros, sólo
-cambia el conjunto de cuentas que forman la palanilla de ingresos, las funciones explicadas para el ingreso de Activos
+El ingreso de Conciliación Flujo de Resultados presenta la pantalla única de ingreso de estados financieros, solo
+cambia el conjunto de cuentas que forman la planilla de ingresos, las funciones explicadas para el ingreso de Activos
 y desplazamiento en la planilla son también aplicables a Conciliación Flujo Resultados 
 
 
@@ -496,7 +471,7 @@ y desplazamiento en la planilla son también aplicables a Conciliación Flujo Re
 Manual de usuario software FECUSA.doc             - 22 -
 3.4. NOTAS EXPLICATIVAS A LOS ESTADOS FINANCIEROS
 Las notas explicativas a los Estados Financieros se componen de las Notas definidas por la Superintendencia de
-Valores y Seguros , y por notas adicionales, que enviará voluntariamente cada sociedad que lo estime conveniente.
+Valores y Seguros, y por notas adicionales, que enviará voluntariamente cada sociedad que lo estime conveniente.
 Se ingresa a la opción de notas explicativas, a través de la siguiente opción de menú:
 
 
@@ -505,8 +480,8 @@ Se ingresa a la opción de notas explicativas, a través de la siguiente opción
 Manual de usuario software FECUSA.doc           - 23 -
 3.4.1. Notas Definidas por SVS
 Al ingresar a esta opción se presenta una pantalla en la cual aparece la lista de Notas Explicativas definidas por la
-SVS. Cada una de estas notas, tiene un componenente de Texto , y opcionalmente tiene la posibilidad de ingresar un
-nombre de Archivo tipo planilla Excel, donde se adjunte información relacionada a la nota. Algunas de estas notas
+SVS. Cada una de estas notas, tiene un componente de Texto, y opcionalmente tiene la posibilidad de ingresar un
+nombre de Archivo tipo planilla Excel, donde se adjunte información relacionada con la nota. Algunas de estas notas
 explicativas además, tienen cuadros asociados, los cuales deben completarse obligadamente si la sociedad incluye
 información en la nota.
 
@@ -516,15 +491,12 @@ El formato de la pantalla de selección de ingreso de notas se presenta a contin
 
 
 Ingreso de Texto en una Nota Explicativa
-El texto que se ingrese como parte de una nota explicativa  se graba sin caracteres especiales, consecuentemente, el
-texto que se ingresa debe ser lo más simple posible.
+El texto que se ingrese como parte de una nota explicativa  se graba sin caracteres especiales, consecuentemente, el texto que se ingresa debe ser lo más simple posible.
 
 Planilla Excel adjunta a una Nota Explicativa
 Es posible entregar la información de una nota explicativa en una planilla Excel. En este caso se debe confeccionar
-la nota usando la planilla de cálculos Excel, luego grabar dicha planilla en el directorio “C:\Archivos de Progra-
-mas\Fecusa\ Archivos_fecu” de su computador. El nombre que se asigna a la planilla al momento de su grabación
-debe estar definido bajo las siguientes reglas: NombredeArchivoAAAAMMBrut.XLS, el formato del nombre se
-describe como sigue:
+la nota usando la planilla de cálculos Excel, luego grabar dicha planilla en el directorio “C:\Archivos de Programas\Fecusa\ Archivos_fecu” de su computador. El nombre que se asigna a la planilla al momento de su grabación
+debe estar definido bajo las siguientes reglas: NombredeArchivoAAAAMMBrut.XLS, el formato del nombre se describe como sigue:
 
         NombredeArchivo: Debe ser asignado por el usuario con relación al contenido de la planilla.
         AAAAMM: Corresponde al año y mes de término del período informado.
@@ -532,9 +504,9 @@ describe como sigue:
         B: Corresponde al tipo de Balance, ‘I’ para Individual, y ‘C’ para consolidado.
 
 Importante
-El uso de planillas Excel, debe hacerse en forma RESTRINGIDA  a aquellos casos en que sea estrictamente necesa-
-rio, porque se enviará la información en un cuadro estructurado. En cualquier otro caso, debe preferirse el ingreso de
+El uso de planillas Excel, debe hacerse en forma RESTRINGIDA  a aquellos casos en que sea estrictamente necesario, porque se enviará la información en un cuadro estructurado. En cualquier otro caso, debe preferirse el ingreso de
 texto.
+
 Manual de usuario software FECUSA.doc             - 24 -
 Cuando adjunte información en planillas, se debe indicar en ésta, la primera fila del archivo deberá contener un
 título señalando claramente cual es la información que se incluye 
@@ -1270,4 +1242,5 @@ Nuevas Funcionalidades
 
 
 Manual de usuario software FECUSA.doc            - 51 -
+
 
