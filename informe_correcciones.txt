@@ -6,19 +6,25 @@ Camargo Loaiza Miguel Ángel        223216254
 Fuentes Padilla Aarón Esteban      223201226
 Pacheco Olvias Juan Pablo Valentin 223201777
 
+SE SELECCIONARON LAS SECCIONES INDICADAS EN EL ÍNDICE COMO 5.1, 5.2 y 6.0  PARA ANALIZARLAS Y REALIZARLES MODIFICACIONES
+UTILIZANDO LA HERRAMIENTA OUTWRITER PARA VISUALIZAR Y CONSIDERAR LOS CAMBIOS SUGERIDOS POR LA EXTENSIÓN. 
 
+- 5. MODULO DE IMPRESIÓN 
++ 5. MÓDULO DE IMPRESIÓN
+El software detectó la falta de un acento en la palabra “módulo” y lo corrigió
 
-5.0 Módulo de impresión
+- Todos los informes que emite el sistema FECUSA fueron diseñados para ser impresos en papel de tamaño (8.5 x 13 pulgadas o 21.6 x 33 cms.), al cual en Chile llamamos “Oficio”. Para imprimir, no debe definirse tamaño de papel, éste está definido internamente en el software.
++ Todos los informes que emite el sistema FECUSA fueron diseñados para ser impresos en papel de tamaño (8.5 x 13 pulgadas o 21.6 x 33 cm.), al cual en Chile llamamos “Oficio”. Para imprimir, no debe definirse tamaño de papel, este está definido internamente en el software.
+El software detectó el nombre FECUSA como una falla ortográfica y sugirió cambiarla por palabras como “FÉCULA”, a lo cual nosotros hacemos caso omiso. Además también detectó que “cms” está mal escrito, puesto que para referirse a “centimetros” se utiliza “cm”, así que permitimos el cambio. Después detectó un mal uso de acentuación en la palabra “éste”, corrigiendo por un “este”, acción que permitimos.
 
+- Seleccione desde la barra de menú la opción impresión para acceder a la pantalla se selección de informes. 
++ Seleccione desde la barra de menú la opción impresión para acceder a la pantalla de selección de informes. 
+Se sugirió el cambio de “se selección” a “de selección”, cambio permitido
 
+- En esta ventana se debe seleccionar el informe que se desea imprimir, marcando por medio de un clic con el mouse el recuadro asociado a cada un informe. De esta forma, se puede seleccionar sólo una parte de la FECU e todos sus componentes. Sólo se imprimirá lo que esté ‘tickeado’, por lo cual debe tenerse especial cuidado, en imprimir todos los componentes en los cuales se ha ingresado información.
++ En esta ventana se debe seleccionar el informe que se desea imprimir, marcando por medio de un clic con el mouse el recuadro asociado a cada un informe. De esta forma, se puede seleccionar solo una parte de la FECU en todos sus componentes. Solo se imprimirá lo que esté ‘tickeado’, por lo cual debe tenerse especial cuidado, en imprimir todos los componentes en los cuales se ha ingresado información.
+El software sugirió el cambio de la palabra “mouse” a “morse” y la palabra “tickeado” por “teclado”, cambio que no fue autorizado debido a que “mouse” o “tickeado” vienen del inglés y están escritos correctamente, pero como está en otro idioma, el software no la reconoce y la trata de cambiar. Además sugiere cambiar la palabra “FECU” por “ECU”, cambio que también omitimos. Además sugiere quitarle el acento a la palabra “sólo”, cambio que fué permitido. también sugirió cambiar “e todos” por “en todos”, cambio aceptado.
 
-5.1 Requisitos de la impresión
-
-
-5.2 Impresión
-
-
-
-
-
-6.0 Generación de archivos 
+- Esta opción permite imprimir la hoja de Declaración de Responsabilidad. Al seleccionar en el recuadro esta opción para ser impresa, se activarán las opciones para indicar si se trata de una FECU anual o trimestral, y para marcar todos los componentes que se incluirán en la FECU que será enviada a la SVS. Como ejemplo, se muestra la selección de impresión para una declaración de responsabilidad de una FECU trimestral, que al imprimirse, tendrá marcados con una ‘X’ los Estados Financieros, las notas explicativas y el medio magnético, debidamente identificado.
++ Esta opción permite imprimir la hoja de Declaración de Responsabilidad. Al seleccionar en el recuadro esta opción para ser impresa, se activarán las opciones para indicar si se trata de una FECU anual o trimestral, y para marcar todos los componentes que se incluirán en la FECU que será enviada a la SVS. Como ejemplo, se muestra la selección de impresión para una declaración de responsabilidad de una FECU trimestral, que al imprimirse, tendrá marcados con una ‘X’ los Estados Financieros, las notas explicativas y el medio magnético, debidamente identificado.
+El software sugiere el cambio en las palabras “para” y “todos” por “Para” y “Todos”, cambio que no fue aceptado por que no hay necesidad de usar las mayúsculas en esas palabras. Además sugiere el cambio de “SVS” a “SUS” o “SOS”, cambio que tampoco fue aceptado.
