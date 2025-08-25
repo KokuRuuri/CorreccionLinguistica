@@ -18,7 +18,7 @@ Mery Helen Pesantes Espinoza
 - Pacheco Olivas Juan Pablo Valentín — **223201777**  
 - Rivera Escoboza Lani — **223204951**  
 - Ruíz Figueroa Miriam Carolina — **223221552**
-- Santiago Hernández Bertha Alicia        223218178  
+- Santiago Hernández Bertha Alicia — **223218178**  
 
 ---
 
