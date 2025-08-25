@@ -17,7 +17,8 @@ Mery Helen Pesantes Espinoza
 - Olivas Salazar Sergio Alejandro — **223204959**  
 - Pacheco Olivas Juan Pablo Valentín — **223201777**  
 - Rivera Escoboza Lani — **223204951**  
-- Ruíz Figueroa Miriam Carolina — **223221552**  
+- Ruíz Figueroa Miriam Carolina — **223221552**
+- Santiago Hernández Bertha Alicia — **223218178**  
 
 ---
 
