@@ -991,16 +991,16 @@ Manual de usuario software FECUSA.doc            - 42 -
     bles.
 
 •   Análisis Razonado
-    Seleccione esta opción imprimir el informe de Análisis Razonado
+    Seleccione esta opción para imprimir el informe de Análisis Razonado
 
 •   Hechos Relevantes
-    Seleccione esta opción imprimir el informe de Hechos Relevantes
+   Seleccione esta opción para imprimir el informe de Hechos Relevantes
 
 •   Informe de los auditores externos
-    Seleccione esta opción imprimir el informe de Auditores Externos
+    Seleccione esta opción para imprimir el informe de Auditores Externos
 
 •   Informe de revisión de Información Financiera interina de los auditores externos
-    Seleccione esta opción imprimir el informe de Información Financiera de Auditores Externos
+    Seleccione esta opción para imprimir el informe de Información Financiera de Auditores Externos
 
 •   Declaración de Responsabilidad
 Esta opción permite imprimir la hoja de Declaración de Responsabilidad. Al seleccionar en el 
@@ -1016,9 +1016,7 @@ Estados Financieros, las notas explicativas y el medio magnético, debidamente i
 
     Manual de usuario software FECUSA.doc              - 43 -
 • Notas explicativas a los Estados Financieros definidas por la SVS
-Para imprimir el texto de las notas explicativas, y los cuadros asociados a éstas, se debe seleccionar el recuadro as o-
-ciado tanto a la nota, como a cada uno de los cuadros que quiere imprimirse. Como ejemplo, se muestra la selección
-de impresión para el texto de la nota 22, el texto de la nota 27 y todos sus cuadros:
+Para imprimir el texto de las notas explicativas y los cuadros asociados a éstas, se debe seleccionar el recuadro asociado tanto a la nota, como a cada uno de los cuadros que quiere imprimir. Como ejemplo, se muestra la selección de impresión para el texto de la nota 22, el texto de la nota 27 y todos sus cuadros:
 
 
 
@@ -1040,8 +1038,7 @@ La información de notas explicativas incluida en cuadros en planillas Excel, de
 planilla electrónica Excel. Esta aplicación, no incluye la impresión antes mencionada.
 
 Si se intenta imprimir un cuadro al cual no se han ingresado datos el sistema presenta un mensaje de error.
-Para planillas Excel adjuntas, el sistema imprime sólo el correlativo correspondiente, la nota impresa desde Excel
-debe adjuntarse a este correlativo.
+Para planillas Excel adjuntas, el sistema imprime solo el correlativo correspondiente, la nota impresa desde Excel debe adjuntarse a este correlativo.
 
 
 
@@ -1271,3 +1268,4 @@ Nuevas Funcionalidades
 Manual de usuario software FECUSA.doc            - 51 -
 
 
+
