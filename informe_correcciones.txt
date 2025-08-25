@@ -2,6 +2,23 @@ INFORME DE CORRECCIONES
 
 Subequipo #3 
 Integrantes
-Camargo Loaiza Miguel Ángel
-Fuentes Padilla Aarón Esteban
-Pacheco Olvias Juan Pablo Valentin 
+Camargo Loaiza Miguel Ángel        223216254
+Fuentes Padilla Aarón Esteban      223201226
+Pacheco Olvias Juan Pablo Valentin 223201777
+
+
+
+5.0 Módulo de impresión
+
+
+
+5.1 Requisitos de la impresión
+
+
+5.2 Impresión
+
+
+
+
+
+6.0 Generación de archivos 
